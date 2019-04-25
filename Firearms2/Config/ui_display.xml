@@ -1,0 +1,37 @@
+<configs>
+		
+	<append xpath="/ui_display_info/crafting_category_display" >
+	
+		<crafting_category_list display_type="mayicblockGunWorkbench">
+			<crafting_category name="AllFirearm" icon="ui_game_symbol_gunsmithing" display_name="All Guns"/>
+			<crafting_category name="AllBlocks" icon="ui_game_symbol_archery" display_name="Shooting Targets and Storage"/>
+			<crafting_category name="PistolFirearm" icon="ui_game_symbol_pistol" display_name="Pistols"/>
+			<crafting_category name="SMGFirearm" icon="ui_game_symbol_weapon_smithing" display_name="SMG"/>
+			<crafting_category name="ShotFirearm" icon="ui_game_symbol_shotgun" display_name="Shotguns"/>
+			<crafting_category name="RifleFirearm" icon="ui_game_symbol_rifle" display_name="Rifles"/>
+			<crafting_category name="sRifleFirearm" icon="ui_game_symbol_map_cursor" display_name="Sniper Rifles"/>
+			<crafting_category name="ModFirearm" icon="ui_game_symbol_assemble" display_name="Scopes and Mods"/>
+			<crafting_category name="SpecFirearm" icon="ui_game_symbol_star" display_name="Special" color="156,125,0,500"/>
+		</crafting_category_list>
+		
+		<crafting_category_list display_type="mayicblockAmmoWorkbench">
+			<crafting_category name="AllRounds" icon="ui_game_symbol_gunsmithing" display_name="All Ammunition"/>
+			<crafting_category name="LowRounds" icon="ui_game_symbol_pistol" display_name="Low Caliber"/>
+			<crafting_category name="MedRounds" icon="ui_game_symbol_misc_crafting" display_name="Medium Caliber"/>
+			<crafting_category name="HighRounds" icon="ui_game_symbol_rifle" display_name="Heavy Caliber"/>
+			<crafting_category name="ExplosiveRounds" icon="ui_game_symbol_fire" display_name="Explosives and Elemental"/>
+			<crafting_category name="SpecialAmmo" icon="ui_game_symbol_star" display_name="Special Ammo" color="156,125,0,500"/>
+			<crafting_category name="ScrapAmmo" icon="ui_game_symbol_scrap" display_name="Scrapping Ammo"/>
+			<crafting_category name="ScrapFirearmss" icon="ui_game_symbol_scrap" display_name="Scrapping Guns"/>
+		</crafting_category_list>
+		
+		<crafting_category_list display_type="mayicblockResearchTable">
+			<crafting_category name="CustomResearch" icon="ui_game_symbol_book" display_name="All Books"/>
+			<crafting_category name="CustomRGun" icon="ui_game_symbol_rifle" display_name="Research Guns"/>
+			<crafting_category name="CustomRAmmo" icon="ui_game_symbol_gunsmithing" display_name="Research Ammo"/>
+			<crafting_category name="CustomRMods" icon="ui_game_symbol_assemble" display_name="Research Mods"/>
+			<crafting_category name="CustomRScrap" icon="ui_game_symbol_scrap" display_name="Schematic Scrapping"/>
+		</crafting_category_list>
+	</append>
+	
+</configs>

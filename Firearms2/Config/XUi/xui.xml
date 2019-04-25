@@ -1,0 +1,32 @@
+<configs>
+	<append xpath="/xui/ruleset" >
+
+		<window_group name="workstation_mayicblockGunWorkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCustomCraftingList"/>
+			<window name="craftingCustomInfoPanel"/>
+			<window name="windowGunTool"/>
+			<window name="windowCustomQueue"/>
+			<window name="windowCustomOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_mayicblockAmmoWorkbench" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCustomCraftingList"/>
+			<window name="craftingCustomInfoPanel"/>
+			<window name="windowAmmoTool" />
+			<window name="windowCustomQueue"/>
+			<window name="windowCustomOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+		
+		<window_group name="workstation_mayicblockResearchTable" controller="XUiC_WorkstationWindowGroup">
+			<window name="windowCustomCraftingList"/>
+			<window name="craftingCustomInfoPanel"/>
+			<window name="windowResearchTool"/>
+			<window name="windowCustomQueue"/>
+			<window name="windowCustomOutput" />
+			<window name="windowNonPagingHeader" />
+		</window_group>
+	
+		</append>
+		</configs>	
