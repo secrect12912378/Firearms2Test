@@ -1,4 +1,4 @@
-<configs>
+<potato>
 <append xpath="/Sounds">
 
 
@@ -816,11 +816,23 @@
 			<MaxRepeatRate value="0.001"/>
 	</SoundDataNode>
 	
-	<SoundDataNode name="flamethroweridle"> 
-		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+	<SoundDataNode name="flamethrowerempty"> 
+		 <AudioSource name="Sounds/AudioSource_Reloads"/> 
 		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
-			<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.5" heat_map_time="300"/>
-			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?flamethroweridlestart"/>
+			<Noise ID="2" range="7" volume="11" time="3"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?flamethroweridlestudder"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="flamethroweridle"> 
+		 <AudioSource name="Sounds/AudioSource_Reloads"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="2" range="7" volume="11" time="3"/>
+		<!--	<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?flamethroweridlestart"/>-->
 			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?flamethroweridle" Loop="true"/>
 			<LocalCrouchVolumeScale value="0.5"/> 
 			<CrouchNoiseScale value="1"/>
@@ -834,8 +846,22 @@
 		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
 		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 			<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.5" heat_map_time="300"/>
+			<Sequence/>
 			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?flamethrowerstart"/>
 			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?flamethrowercontinue" Loop="true"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?flamethroweridlestudder"/>
+			<LocalCrouchVolumeScale value="0.5"/> 
+			<CrouchNoiseScale value="1"/>
+			<NoiseScale value="1"/> 
+			<MaxVoices value="10"/> 
+			<MaxRepeatRate value="0.001"/>
+	</SoundDataNode>
+	
+	<SoundDataNode name="flamethrowerstart"> 
+		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
+		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
+			<Noise ID="2" range="7" volume="11" time="3" heat_map_strength="0.5" heat_map_time="300"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?flamethrowerstart"/>
 			<LocalCrouchVolumeScale value="0.5"/> 
 			<CrouchNoiseScale value="1"/>
 			<NoiseScale value="1"/> 
@@ -867,7 +893,7 @@
 		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
 		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 			<Noise ID="5" range="80" volume="80" time="3" heat_map_strength="0.1" heat_map_time="120"/>
-			<AudioClip ClipName="#@modfolder:Resources/Laser.unity3d?lasershot"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?lasershot"/>
 			<LocalCrouchVolumeScale value="0.5"/> 
 			<CrouchNoiseScale value="0.5"/>
 			<NoiseScale value="1"/> 
@@ -879,7 +905,7 @@
 		 <AudioSource name="Sounds/AudioSource_WeaponFire"/> 
 		 <NetworkAudioSource name="Sounds/AudioSource_WeaponFire_Network"/>
 			<Noise ID="5" range="80" volume="80" time="3" heat_map_strength="0.1" heat_map_time="120"/>
-			<AudioClip ClipName="#@modfolder:Resources/LaserRifle.unity3d?lasershot1"/>
+			<AudioClip ClipName="#@modfolder:Resources/Audio.unity3d?lasershot1"/>
 			<LocalCrouchVolumeScale value="0.5"/> 
 			<CrouchNoiseScale value="0.5"/>
 			<NoiseScale value="1"/> 
@@ -887,4 +913,4 @@
 			<MaxRepeatRate value="0.001"/>
 	</SoundDataNode>
 	</append>
-</configs>
+</potato>

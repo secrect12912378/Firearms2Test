@@ -149,41 +149,12 @@ mayicmodBayonet,item_modifiers,mod,New,Bayonet Attachment,,,,,
 mayicmodBayonetDesc,item_modifiers,mod,New,Bayonet Attachment to chage your enemies without fear!,,,,,
 mayicmodExtendedSilencer,item_modifiers,mod,New,Compression Silencer,,,,,
 mayicmodExtendedSilencerDesc,item_modifiers,mod,New,Go unheard with this must-have tactical attachment,,,,,
-
-
-
-mayicmodACOGSchematic,items,Book,New,ACOG Schematics,,,,,
-mayicmodACOGSchematicDesc,items,Book,New,Schematics to make RGB ACOG Scopes,,,,,
-mayicmodACOGx2Schematic,items,Book,New,ACOG x2 Schematics,,,,,
-mayicmodACOGx2SchematicDesc,items,Book,New,Schematics to make RGB ACOG Scopes with a x2 Lens Zoom,,,,,
-mayicmodDotSchematic,items,Book,New,Dot Sight Schematics,,,,,
-mayicmodDotSchematicDesc,items,Book,New,Schematics to make RGB Dot Scopes,,,,,
-mayicmodHoloSchematic,items,Book,New,Holo Sight Schematics,,,,,
-mayicmodHoloSchematicDesc,items,Book,New,Schematics to make Holo Scopes,,,,,
-mayicmodAlienScopeSchematic,items,Book,New,High Tech Scope Schematics,,,,,
-mayicmodAlienScopeSchematicDesc,items,Book,New,Schematics to make Alien Tech Scopes,,,,,
-mayicmodHairSightSchematic,items,Book,New,Hair Sight Schematics,,,,,
-mayicmodHairSightSchematicDesc,items,Book,New,Schematics to make Hair Sight Scopes,,,,,
-mayicmodHairSightx2Schematic,items,Book,New,Hair Sight Schematics,,,,,
-mayicmodHairSightx2SchematicDesc,items,Book,New,Schematics to make Hair Sight x2 Lens Zoom Scopes,,,,,
-mayicmodHairSightx4Schematic,items,Book,New,Hair Sight Schematics,,,,,
-mayicmodHairSightx4SchematicDesc,items,Book,New,Schematics to make Hair Sight x4 Lens Zoom Scopes,,,,,
-mayicmodHandGripSchematic,items,Book,New,Hand Grip Schematics,,,,,
-mayicmodHandGripSchematicDesc,items,Book,New,Schematics to make Hand Grip Firearms Attachments,,,,,
-mayicmodLaserSideSchematic,items,Book,New,Laser Side Schematics,,,,,
-mayicmodLaserSideSchematicDesc,items,Book,New,Schematics to make Laser Side Firearms Attachments,,,,,
-mayicmodBayonetSchematic,items,Book,New,Bayonet Attachment Schematics,,,,,
-mayicmodBayonetSchematicDesc,items,Book,New,Schematics to make Bayonet Firearms Attachments,,,,,
-mayicmodExtendedSilencerSchematic,items,Book,New,Compression Silencer Schematics,,,,,
-mayicmodExtendedSilencerSchematicDesc,items,Book,New,Schematics to make Compression Silencer Attachments,,,,,
-mayicmodBlockBusterSchematic,items,Book,New,Block Buster Schematics,,,,,
-mayicmodBlockBusterSchematicDesc,items,Book,New,Schematics to make Block Buster Firearms Mod,,,,,
-
-
-mayicmodAlienScopeSchematic,items,Book,New,High Tech Scope Schematics,,,,,
-mayicmodAlienScopeSchematicDesc,items,Book,New,Schematics to make Alien Tech Scopes,,,,,
-mayicmodAlienScopeSchematic,items,Book,New,High Tech Scope Schematics,,,,,
-mayicmodAlienScopeSchematicDesc,items,Book,New,Schematics to make Alien Tech Scopes,,,,,
+mayicmodQuickMag,item_modifiers,mod,New,Quick Magazine,,,,,
+mayicmodQuickMagDesc,item_modifiers,mod,New,Attach this dual magazine to your firearm for quicker reloading,,,,,
+mayicmodBananaClip,item_modifiers,mod,New,Banana Magazine,,,,,
+mayicmodBananaClipDesc,item_modifiers,mod,New,Attach this banana mag to your firearm for x2 ammunition capacity,,,,,
+mayicmodDrumMag,item_modifiers,mod,New,Drum Magazine,,,,,
+mayicmodDrumMagDesc,item_modifiers,mod,New,Attach this Drum Mag to your firearm for x5 ammunition capacity,,,,,
 
 mayicblockTarget,blocks,Block,New,Large Target,,,,,
 mayicblockTargetDesc,blocks,Block,New,Large Shootable Target for aim practice,,,,,
@@ -203,6 +174,8 @@ mayicblockGunWorkbench,blocks,Block,New,Firearms Workbench,,,,,
 mayicblockGunWorkbenchDesc,blocks,Block,New,Craft custom Firearms Scopes Storage Shootable Targets,,,,,
 mayicblockResearchTable,blocks,Block,New,Firearms Research Table,,,,,
 mayicblockResearchTableDesc,blocks,Block,New,Research how to craft specific Firearms and Ammunition and scrap unused Schematics for more Scrap Schematics,,,,,
+mayicblockModWorkbench,blocks,Block,New,Firearms Research Table,,,,,
+mayicblockModWorkbenchDesc,blocks,Block,New,Research how to craft specific Firearms and Ammunition and scrap unused Schematics for more Scrap Schematics,,,,,
 
 mayicresourceScrapAmmo,items,Ammo,New,Scrap Ammo,,,,,
 mayicresourceScrapAmmoDesc,items,Ammo,New,Scrap Ammo is CRAFTED not Salvaged;to turn ammo back into GunPowder/Shell Casings/Round Tips/Buckshot,,,,,
@@ -317,8 +290,10 @@ mayicchallengerifle,items,Quest Note,New,GET SOME!,,,,,
 mayicchallengesniper,items,Quest Note,New,Sniper School,,,,,
 mayicchallengechaingun,items,Quest Note,New,Chaingun Rampage!,,,,,
 
-mayicschematicMasterDesc,items,Book,New,Use this book to learn how to craft this Firearm!,,,,,
-mayicschematicAmmoMasterDesc,items,Book,New,Use this book to learn how to craft this Ammunition!,,,,,
+mayicschematicMasterDesc,items,Book,New,Hold this book in your hands at the Firearms Table to craft this Firearm!,,,,,
+mayicschematicAmmoMasterDesc,items,Book,New,Hold this book in your hands at the Ammunition Press to craft this Ammunition!,,,,,
+mayicmodACOGSchematicDesc,items,Book,New,Hold this book in your hands at the Part Workstation to craft this Modification!,,,,,
+mayicpartSmReceiverSchematicDesc,items,Book,New,Hold this book in your hands at the Part Workstation to craft this Firearms Part!,,,,,
 mayicgunLugerSchematic,items,Book,New,Luger Schematic,,,,,
 mayicgun38SnubnoseSchematic,items,Book,New,38 Snubnose Schematic,,,,,
 mayicgunBerettaNanoSchematic,items,Book,New,Beretta Nano Schematic,,,,,
@@ -370,6 +345,7 @@ mayicgunArghSchematic,items,Book,New,Argh! Schematic,,,,,
 mayicgunM79GL40Schematic,items,Book,New,M79 GL40 Schematic,,,,,
 mayicgunHandCannonSchematic,items,Book,New,Hand Cannon Schematic,,,,,
 mayicgunLaserRifleSchematic,items,Book,New,High Tech Rifle Schematic,,,,,
+mayicgunFlamethrowerSchematic,items,Book,New,Flamethrower Schematic,,,,,
 
 
 mayicammo9x19mmSchematic,items,Book,New,9x19mm Ammo Schematic,,,,,
@@ -401,6 +377,27 @@ mayicammoCorrosiveSchematic,items,Book,New,40mm Explosive Schematic,,,,,
 mayicammoDragonsbreathSchematic,items,Book,New,40mm Explosive Schematic,,,,,
 mayicammoElectricshellSchematic,items,Book,New,40mm Explosive Schematic,,,,,
 mayicammoLaserRoundSchematic,items,Book,New,Nuclear Round Schematic,,,,,
+mayicammoFlameFuelSchematic,items,Book,New,Flamethrower Fuel Schematic,,,,,
+
+mayicmodACOGSchematic,items,Book,New,ACOG Schematics,,,,,
+mayicmodACOGx2Schematic,items,Book,New,ACOG x2 Schematics,,,,,
+mayicmodDotSchematic,items,Book,New,Dot Sight Schematics,,,,,
+mayicmodHoloSchematic,items,Book,New,Holo Sight Schematics,,,,,
+mayicmodAlienScopeSchematic,items,Book,New,High Tech Scope Schematics,,,,,
+mayicmodHairSightSchematic,items,Book,New,Hair Sight Schematics,,,,,
+mayicmodHairSightx2Schematic,items,Book,New,Hair Sight Schematics,,,,,
+mayicmodHairSightx4Schematic,items,Book,New,Hair Sight Schematics,,,,,
+mayicmodHandGripSchematic,items,Book,New,Hand Grip Schematics,,,,,
+mayicmodLaserSideSchematic,items,Book,New,Laser Side Schematics,,,,,
+mayicmodBayonetSchematic,items,Book,New,Bayonet Attachment Schematics,,,,,
+mayicmodExtendedSilencerSchematic,items,Book,New,Compression Silencer Schematics,,,,,
+mayicmodBlockBusterSchematic,items,Book,New,Block Buster Schematics,,,,,
+mayicmodQuickMagSchematic,items,Book,New,Quick Magazine Schematics,,,,,
+mayicmodBananaClipSchematic,items,Book,New,Banana Magazine Schematics,,,,,
+mayicmodDrumMagSchematic,items,Book,New,Drum Magazine Schematics,,,,,
+
+
+
 
 mayicttScrapGun,UI,Tooltip,New,Scrap Gun that can be broken down to retrieve valuable materials,,,,,
 mayicttScrapAmmo,UI,Tooltip,New,Scrap Ammo that can be broken down to retrieve valuable materials,,,,,
@@ -419,7 +416,6 @@ mayictoolViseGrips,items,Item,New,Vise Grips,,,,,
 mayictoolViseGripsDesc,items,Item,New,Increases the amount of Bullet Casings extracted by 50% when Salvaging Scrap Ammo,,,,,
 mayictoolBulletPress,items,Item,New,Bullet Press,,,,,
 mayictoolBulletPressDesc,items,Item,New,Increases the amount of Bullet Tips extracted by 50% when Salvaging Scrap Ammo,,,,,
-
 mayictoolFirearmsKit,items,Item,New,Firearms Kit,,,,,
 mayictoolFirearmsKitDesc,items,Item,New,Increases the amount of Irons extracted by 30% when Salvaging Scrap Guns,,,,,
 mayictoolReceiverVise,items,Item,New,Receiver Vise,,,,,
@@ -434,10 +430,114 @@ mayictoolChannelLocks,items,Item,New,Channel Locks,,,,,
 mayictoolChannelLocksDesc,items,Item,New,Increases the amount of Mechanical Parts extracted by 40% when Salvaging Scrap Guns,,,,,
 mayictoolHandguardGrips,items,Item,New,Handguard Grips,,,,,
 mayictoolHandguardGripsDesc,items,Item,New,Increases the amount of Duct Tape extracted by 50% when Salvaging Scrap Guns,,,,,
-
 mayictoolAmmoManual,items,Item,New,Ammo Manual,,,,,
 mayictoolAmmoManualDesc,items,Item,New,Learn how to research ammos using this tool at a Research Table,,,,,
 mayictoolGunManual,items,Item,New,Gun Manual,,,,,
 mayictoolGunManualDesc,items,Item,New,Learn how to research Firearms using this tool at a Research Table,,,,,
 mayictoolModificationManual,items,Item,New,Modifications Manual,,,,,
 mayictoolModificationManualDesc,items,Item,New,Learn how to research Weapon Mods using this tool at a Research Table,,,,,
+
+
+
+
+
+
+
+
+mayicpartSmReceiver,items,Item,New,Small Receiver,,,,,
+mayicpartSmReceiverDesc,items,Item,New,Small Receiver for lower end Firearms: Core piece,,,,,
+mayicpartSmBarrel,items,Item,New,Small Barrel,,,,,
+mayicpartSmBarrelDesc,items,Item,New,Small Barrel for lower end Firearms: Core piece,,,,,
+mayicpartSmStock,items,Item,New,Small Stock,,,,,
+mayicpartSmStockDesc,items,Item,New,Small Stock for lower end Firearms: Core piece,,,,,
+mayicpartSmGrip,items,Item,New,Small Grip,,,,,
+mayicpartSmGripDesc,items,Item,New,Small Grip for lower end Firearms: Core piece,,,,,
+
+mayicpartMedReceiver,items,Item,New,Medium Receiver,,,,,
+mayicpartMedReceiverDesc,items,Item,New,Medium Receiver for medium end Firearms: Core piece,,,,,
+mayicpartMedBarrel,items,Item,New,Medium Barrel,,,,,
+mayicpartMedBarrelDesc,items,Item,New,Medium Barrel for medium end Firearms: Core piece,,,,,
+mayicpartMedStock,items,Item,New,Medium Stock,,,,,
+mayicpartMedStockDesc,items,Item,New,Medium Stock for medium end Firearms: Core piece,,,,,
+mayicpartMedGrip,items,Item,New,Medium Grip,,,,,
+mayicpartMedGripDesc,items,Item,New,Medium Grip for medium end Firearms: Core piece,,,,,
+
+mayicpartLrgReceiver,items,Item,New,Large Receiver,,,,,
+mayicpartLrgReceiverDesc,items,Item,New,Large Receiver for high end Firearms: Core piece,,,,,
+mayicpartLrgBarrel,items,Item,New,Large Barrel,,,,,
+mayicpartLrgBarrelDesc,items,Item,New,Large Barrel for high end Firearms: Core piece,,,,,
+mayicpartLrgStock,items,Item,New,Large Stock,,,,,
+mayicpartLrgStockDesc,items,Item,New,Large Stock for high end Firearms: Core piece,,,,,
+mayicpartLrgGrip,items,Item,New,Large Grip,,,,,
+mayicpartLrgGripDesc,items,Item,New,Large Grip for high end Firearms: Core piece,,,,,
+
+mayicpartShortBarrel,items,Item,New,Short Barrel,,,,,
+mayicpartShortBarrelDesc,items,Item,New,Short Barrel for lower end Firearms: Recipe Specific piece,,,,,
+mayicpartMountRails,items,Item,New,Mount Rails,,,,,
+mayicpartMountRailsDesc,items,Item,New,Mount Rails for medium end Firearms: Recipe Specific piece,,,,,
+mayicpartLongBarrel,items,Item,New,Long Barrel,,,,,
+mayicpartLongBarrelDesc,items,Item,New,Short Barrel for high end Firearms: Recipe Specific piece,,,,,
+mayicpartForwardAssist,items,Item,New,Forward Assist,,,,,
+mayicpartForwardAssistDesc,items,Item,New,Short Barrel for lower end Firearms: Recipe Specific piece,,,,,
+mayicpartSlideBar,items,Item,New,Slide Bar,,,,,
+mayicpartSlideBarDesc,items,Item,New,Short Barrel for medium end Firearms: Recipe Specific piece,,,,,
+mayicpartBreechBolt,items,Item,New,Breech Bolt,,,,,
+mayicpartBreechBoltDesc,items,Item,New,Breech Bolt for high end Firearms: Recipe Specific piece,,,,,
+mayicpartHammer,items,Item,New,Firearms Hammer,,,,,
+mayicpartHammerDesc,items,Item,New,Hammer for lower end Firearms: Recipe Specific piece,,,,,
+mayicpartTrigger,items,Item,New,Firearms Trigger,,,,,
+mayicpartTriggerDesc,items,Item,New,Trigger for medium end Firearms: Recipe Specific piece,,,,,
+mayicpartCompressor,items,Item,New,Firearms Compressor,,,,,
+mayicpartCompressorDesc,items,Item,New,Compressor for medium end Firearms: Recipe Specific piece,,,,,
+mayicpartHandguard,items,Item,New,Firearms Handguard,,,,,
+mayicpartHandguardDesc,items,Item,New,Handguard for high end Firearms: Recipe Specific piece,,,,,
+mayicpartChaingunGear,items,Item,New,Chaingun Gear,,,,,
+mayicpartChaingunGearDesc,items,Item,New,Chaingun Gear for special tier Firearms: Recipe Specific piece,,,,,
+mayicpartAlienFrame,items,Item,New,High Tech Weapons Frame,,,,,
+mayicpartAlienFrameDesc,items,Item,New,High Tech Weapons Frame for special tier end Firearms: Recipe Specific piece,,,,,
+
+
+
+mayicpartSmReceiverSchematic,items,Book,New,Small Receiver Schematic,,,,,
+mayicpartSmBarrelSchematic,items,Book,New,Small Barrel Schematic,,,,,
+mayicpartSmStockSchematic,items,Book,New,Small Stock Schematic,,,,,
+mayicpartSmGripSchematic,items,Book,New,Small Grip Schematic,,,,,
+
+mayicpartMedReceiverSchematic,items,Book,New,Medium Receiver Schematic,,,,,
+mayicpartMedBarrelSchematic,items,Book,New,Medium Barrel Schematic,,,,,
+mayicpartMedStockSchematic,items,Book,New,Medium Stock Schematic,,,,,
+mayicpartMedGripSchematic,items,Book,New,Medium Grip Schematic,,,,,
+
+mayicpartLrgReceiverSchematic,items,Book,New,Large Receiver Schematic,,,,,
+mayicpartLrgBarrelSchematic,items,Book,New,Large Barrel Schematic,,,,,
+mayicpartLrgStockSchematic,items,Book,New,Large Stock Schematic,,,,,
+mayicpartLrgGripSchematic,items,Book,New,Large Grip Schematic,,,,,
+
+mayicpartShortBarrelSchematic,items,Book,New,Short Barrel Schematic,,,,,
+mayicpartMountRailsSchematic,items,Book,New,Mount Rail Schematic,,,,,
+mayicpartLongBarrelSchematic,items,Book,New,Long Barrel Schematic,,,,,
+mayicpartForwardAssistSchematic,items,Book,New,Forward Assist Schematic,,,,,
+mayicpartSlideBarSchematic,items,Book,New,Slidebar Schematic,,,,,
+mayicpartBreechBoltSchematic,items,Book,New,Breech Bolt Schematic,,,,,
+mayicpartHammerSchematic,items,Book,New,Firearms Hammer Schematic,,,,,
+mayicpartTriggerSchematic,items,Book,New,Firearms Trigger Schematic,,,,,
+mayicpartCompressorSchematic,items,Book,New,Firearms Compressor Schematic,,,,,
+mayicpartHandguardSchematic,items,Book,New,Firearms Handguard Schematic,,,,,
+mayicpartChaingunGearSchematic,items,Book,New,Chaingun Gear Schematic,,,,,
+mayicpartAlienFrameSchematic,items,Book,New,High Tech Frame Schematic,,,,,
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

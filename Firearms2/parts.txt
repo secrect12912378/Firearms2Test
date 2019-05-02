@@ -1,0 +1,321 @@
+parts
+resourceScrapIron
+resourceScrapLead
+resourceForgedIron
+resourceForgedSteel
+resourceScrapBrass
+resourceMetalPipe
+resourceNail
+
+resourceCloth
+resourceLeather
+resourceYuccaFibers
+resourceMilitaryFiber
+
+resourceWood
+resourcePaper
+resourceRockSmall
+
+resourceOil
+resourceGlue
+resourceBrokenGlass
+resourceDuctTape
+resourceSpring
+resourceMechanicalParts
+resourceScrapPolymers
+resourceElectricParts
+resourceAcid
+
+medicalBloodBag
+
+
+
+mayicpart
+
+mayicpartSmReceiver
+mayicpartSmBarrel
+mayicpartSmStock
+mayicpartSmGrip
+
+mayicpartMedReceiver
+mayicpartMedBarrel
+mayicpartMedStock
+mayicpartMedGrip
+
+mayicpartLrgReceiver
+mayicpartLrgBarrel
+mayicpartLrgStock
+mayicpartLrgGrip
+
+mayicpartShortBarrel	
+mayicpartMountRails   
+mayicpartLongBarrelSch
+
+mayicpartForwardAssist 	
+mayicpartSlideBar	  
+mayicpartBreechBolt
+
+mayicpartHammer 
+mayicpartTrigger        
+mayicpartCompressor	  
+mayicpartHandguard		
+     		-    -
+
+
+   mayicpartSmReceiver   
+			resourceScrapIron   		120   
+			resourceMechanicalParts   	5   
+			resourceSpring  			2   
+			mayicresourceScrapGun   	1   
+   
+   mayicpartSmBarrel   
+			resourceScrapIron   		120   
+			resourceMechanicalParts  	 5   
+			resourceSpring  			 2   
+			mayicresourceScrapGun  		 1   
+   
+   mayicpartSmStock   
+			resourceScrapIron      		120   
+			resourceScrapPolymers 		  20   
+			resourceDuctTape  			 2   
+			mayicresourceScrapGun  		 1   
+   
+   mayicpartSmGrip   
+			resourceScrapIron      		120   
+			resourceScrapPolymers  		 20   
+			resourceDuctTape  			 2   	
+			resourceCloth  				 10   
+			mayicresourceScrapGun  		 1   
+   
+		
+		
+		
+   mayicpartMedReceiver   
+			resourceForgedIron  			40   
+			resourceMechanicalParts  		 7   
+			resourceSpring   4   
+			mayicresourceScrapGun   2   
+   
+   mayicpartMedBarrel   
+			resourceForgedIron   40   
+			resourceMechanicalParts   7   
+			resourceSpring   4   
+			mayicresourceScrapGun   2   
+   
+   mayicpartMedStock   
+			resourceForgedIron   40   
+			resourceScrapPolymers   15   
+			resourceDuctTape   4   
+			mayicresourceScrapGun   2   
+   
+   mayicpartMedGrip   
+			resourceForgedIron   40   
+			resourceScrapPolymers   15   
+			resourceDuctTape   4   
+			resourceLeather   10   
+			mayicresourceScrapGun   2   
+   
+		
+		
+		
+   mayicpartLrgReceiver   
+			resourceForgedSteel   15   
+			resourceMechanicalParts   15   
+			resourceSpring   5   
+			mayicresourceScrapGun   4   
+   
+   mayicpartLrgBarrel   
+			resourceForgedSteel   15   
+			resourceMechanicalParts   15   
+			resourceSpring   5   
+			mayicresourceScrapGun   4   
+   
+   mayicpartLrgStock   
+			resourceForgedSteel   15   
+			resourceScrapPolymers   25   
+			resourceDuctTape   5   
+			mayicresourceScrapGun   4   
+   
+   mayicpartLrgGrip   
+			resourceForgedSteel   15   
+			resourceScrapPolymers   25   
+			resourceDuctTape   5   
+			resourceMilitaryFiber   10   
+			mayicresourceScrapGun   4   
+   
+		
+		
+		<!-- Barrels -->
+   mayicpartShortBarrel   
+			resourceScrapIron   260   
+			resourceMechanicalParts   4   
+			resourceMetalPipe   4   
+   
+   mayicpartMountRails   
+			resourceForgedIron   215   
+			resourceMechanicalParts   6   
+			resourceMilitaryFiber   6   
+   
+   mayicpartLongBarrel   
+			resourceForgedSteel   45   
+			resourceMechanicalParts   10   
+			resourceSpring   10   
+   
+		<!-- Bolts and Assists -->
+   mayicpartForward   
+			resourceScrapIron   260   
+			resourceOil   4   
+			resourceScrapPolymers   4   
+   
+   mayicpartSlideBar   
+			resourceForgedIron   215   
+			resourceOil   6   
+			resourceDuctTape   6   
+   
+   mayicpartBreechBolt   
+			resourceForgedSteel   45   
+			resourceOil   10   
+			resourceSpring   10   
+   
+		<!-- Firing assists -->
+   mayicpartHammer   
+			resourceScrapIron   260   
+			resourceMechanicalParts   10   
+			resourceSpring   4   
+   
+   mayicpartTrigger   
+			resourceForgedIron   215   
+			resourceMechanicalParts   15   
+			resourceSpring   6   
+   
+   mayicpartHandguard   
+			resourceForgedIron   215   
+			resourceMechanicalParts   15   
+			resourceMilitaryFiber   4   
+   
+   mayicpartCompressor   
+			resourceForgedSteel   45   
+			resourceMechanicalParts   25   
+			resourceSpring   10   
+   
+		
+		
+		
+		
+		
+		
+		
+		
+			<item name="mayicpartSmReceiverSchematic" count="1"prob=".25"/>
+			<item name="mayicpartSmBarrelSchematic" count="1"prob=".25"/>
+			<item name="mayicpartSmStockSchematic" count="1"prob=".25"/>
+			<item name="mayicpartSmGripSchematic" count="1"prob=".25"/>
+			<item name="mayicpartMedReceiverSchematic" count="1"prob=".15"/>
+			<item name="mayicpartMedBarrelSchematic" count="1"prob=".15"/>
+			<item name="mayicpartMedStockSchematic" count="1"prob=".15"/>
+			<item name="mayicpartMedGripSchematic" count="1"prob=".15"/>
+			<item name="mayicpartLrgReceiverSchematic" count="1"prob=".07"/>
+			<item name="mayicpartLrgBarrelSchematic" count="1"prob=".07"/>
+			<item name="mayicpartLrgStockSchematic" count="1"prob=".07"/>
+			<item name="mayicpartLrgGripSchematic" count="1"prob=".07"/>
+			
+			<item name="mayicpartShortBarrelSchematic" count="1"prob=".23"/>
+			<item name="mayicpartMountRailsSchematic" count="1"prob=".13"/>
+			<item name="mayicpartLongBarrelSchematic" count="1"prob=".05"/>
+			
+			<item name="mayicpartForwardAssistSchematic" count="1"prob=".23"/>
+			<item name="mayicpartSlideBarSchematic" count="1"prob=".13"/>
+			<item name="mayicpartBreechBoltSchematic" count="1"prob=".05"/>
+			
+			<item name="mayicpartTriggerSchematic" count="1"prob=".23"/>
+			<item name="mayicpartHammerSchematic" count="1"prob=".13"/>
+			<item name="mayicpartCompressorSchematic" count="1"prob=".13"/>
+			<item name="mayicpartHandguardSchematic" count="1"prob=".05"/>
+		
+		
+		
+		
+		
+<!-- MAIN GROUPS -->
+mayicpartSmReceiver
+	7smreceiver
+	
+mayicpartSmBarrel
+	7smbarrel
+
+mayicpartSmStock
+	7smstock
+
+mayicpartSmGrip
+	7smgrip
+
+
+
+mayicpartMedReceiver
+	7medreceiver
+
+mayicpartMedBarrel
+	7medbarrel
+
+mayicpartMedStock
+	7medstock
+
+mayicpartMedGrip
+	7medgrip
+
+
+mayicpartLrgReceiver
+	7lrgreceiver
+
+
+mayicpartLrgBarrel
+	7lrgbarrel
+
+mayicpartLrgStock
+	7lrgstock
+
+mayicpartLrgGrip
+	7lrggrip
+
+
+
+mayicpartLongBarrel
+	7longbarrel
+
+mayicpartShortBarrel
+	7shortbarrel
+
+mayicpartMountRails
+	7mountrail
+
+<!-- Bolts and Assists -->
+mayicpartBreechBolt
+	7breechbolt
+
+mayicpartSlideBar
+	7slide
+
+mayicpartForwardAssist
+	7forward
+
+<!-- Firing assists -->
+mayicpartCompressor
+	7compressor
+
+mayicpartHammer
+	7hammer
+
+mayicpartTrigger
+	7trigger
+
+mayicpartHandguard
+	7handguard
+
+
+mayicpartChaingunGear
+	7chaingungear
+
+
+mayicpartAlienFrame
+	7alienframe
+

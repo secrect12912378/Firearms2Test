@@ -1,4 +1,4 @@
-<configs>
+<potato>
 <append xpath="progression/attributes">
 <attribute name="AdvancedFirearms" name_key="mayicattAdvancedFirearmsName" desc_key="mayicattAdvancedFirearmsDesc" icon="ui_game_symbol_gunslinger" base_skill_point_cost="1" cost_multiplier_per_level="1">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="5" desc_key="Level 5"/></level_requirements>
@@ -39,8 +39,8 @@
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicgunMosinNagant,mayicgunM1,mayicgunM98,mayicgunJNG90"/>
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="8,10" tags="mayicmodACOGGreen,mayicmodACOGBlue,mayicmodACOGRed,mayicammo338cal,mayicammo338calSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 					
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicgunM249Saw,mayicgunM82,mayicgunDesertEagle,mayicgunColtPython,mayicgunM79GL40,mayicgunM240"/>
-					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicammo50cal,mayicmodAlienScope,mayicammo30-06,mayicammo357magnum,mayicammo50ae,mayicammo40mmExplosive,mayicammo50calSteel,mayicammo30-06Steel,mayicammo357magnumSteel,mayicammo50aeSteel"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicgunM249Saw,mayicgunM82,mayicgunDesertEagle,mayicgunColtPython,mayicgunM79GL40,mayicgunM240,mayicgunFlameThrower"/>
+					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="9,10" tags="mayicammo50cal,mayicammoFlameFuel,mayicmodAlienScope,mayicammo30-06,mayicammo357magnum,mayicammo50ae,mayicammo40mmExplosive,mayicammo50calSteel,mayicammo30-06Steel,mayicammo357magnumSteel,mayicammo50aeSteel"/>
 					
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="5" level="10" tags="mayicgunGoldenGun,mayicgunChaingun,mayicgunLaserRifle"/>
 					<passive_effect name="RecipeTagUnlocked" operation="base_set" value="5" level="10" tags="mayicammoGoldenbullet,mayicammoLaserRound,mayicammo5mm,mayicammo5mmSteel"/>
@@ -60,4 +60,26 @@
 		</effect_group>
 		</attribute>
 </append>
-</configs>
+<append xpath="progression/perks">
+
+	<perk name="mayicperkMods" parent="AdvancedFirearms" name_key="mayicperkModsName" desc_key="mayicperkModsDesc" icon="ui_game_symbol_resource">
+		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="mayicperkRank1E"/></level_requirements>
+		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="mayicperkRank3E"/></level_requirements>
+		<level_requirements level="5"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="mayicperkRank5E"/></level_requirements>
+		<level_requirements level="7"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="mayicperkRank7E"/></level_requirements>
+		<level_requirements level="10"><requirement name="PlayerLevel" target="self" operation="GTE" value="1" desc_key="mayicperkRank10E"/></level_requirements>
+		<effect_group>
+			<effect_description level="1" desc_key="mayicperkAdvancedGathering1E" desc_base="Increases Gathering Amount by 10%"/>
+			<effect_description level="2" desc_key="mayicperkAdvancedGathering2E" desc_base="Increases Gathering Amount by 20%"/>
+			<effect_description level="3" desc_key="mayicperkAdvancedGathering3E" desc_base="Increases Gathering Amount by 30%"/>
+			<effect_description level="4" desc_key="mayicperkAdvancedGathering4E" desc_base="Increases Gathering Amount by 40%"/>
+			<effect_description level="5" desc_key="mayicperkAdvancedGathering5E" desc_base="Increases Gathering Amount by 50%"/>
+		</effect_group>
+		<effect_group>
+			<passive_effect name="HarvestCount" operation="perc_add" value=".1,.5" level="1,5"/>
+			<passive_effect name="HarvestCount" operation="perc_add" value="0" level="1,5" tags="wildCropsHarvest"/>
+		</effect_group>
+	</perk>
+</append>
+
+</potato>

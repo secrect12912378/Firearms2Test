@@ -1,4 +1,4 @@
-<configs>
+<potato>
 <append xpath="/traders/trader_item_groups/trader_item_group[@name='modGunT1']">
 	<item name="mayicmodHoloSightRed"/>
 	<item name="mayicmodHoloSightBlue"/>
@@ -250,4 +250,4 @@
 <item name="mayicammoLaserRound" count="5,30" prob="0.01"/>
 </append>
 <set xpath="/traders/trader_info[@id='1' and @max_inventory='80']/@max_inventory">120</set>
-</configs>
+</potato>

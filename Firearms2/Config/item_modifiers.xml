@@ -1,4 +1,4 @@
-<configs>
+<potato>
 	<!--
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
@@ -1918,7 +1918,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOGPrefabGreen" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="900"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -2196,7 +2196,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOGPrefabBlue" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="900"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -2467,7 +2467,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOGPrefabRed" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="900"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -2750,7 +2750,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOG2xPrefabGreen" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="9000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -3028,7 +3028,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOG2xPrefabBlue" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="9000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -3299,7 +3299,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOG2xPrefabRed" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="9000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -3581,7 +3581,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?DOTPrefabRed" value="transparent" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="500"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -3851,7 +3851,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?DOTPrefabGreen" value="transparent" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="500"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -4121,7 +4121,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?DOTPrefabBlue" value="transparent" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="500"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -4403,7 +4403,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HoloPrefabRed" value="transparent" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -4676,7 +4676,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HoloPrefabBlue" value="transparent" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -4948,7 +4948,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HoloPrefabGreen" value="transparent" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="1100"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -5234,7 +5234,7 @@
 				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-0.1"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?AlienScopePrefab" value="transparent" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModSpecial"/>
 			<property name="EconomicValue" value="15500"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -5519,7 +5519,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HairSightPrefab" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="5000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -5802,7 +5802,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HairSight2xPrefab" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="9000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -6085,7 +6085,7 @@
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HairSight4xPrefab" parent_transform="Attachments/Scope"/>
 			</effect_group>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModScope"/>
 			<property name="EconomicValue" value="15000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -6107,7 +6107,7 @@
 		<property name="CustomIcon" value="7blockbuster"/>
 			<property name="DescriptionKey" value="mayicmodBlockBusterDesc"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModSpecial"/>
 			<property name="EconomicValue" value="50000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -6119,26 +6119,6 @@
 				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="metal"/>
 				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="stone"/>
 			</effect_group>
-		<property name="PickupJournalEntry" value="augmentGunsTip"/>
-	</item_modifier>
-	
-	<item_modifier name="mayicmodTest" installable_tags="test" modifier_tags="test" type="attachment">
-		<property name="CustomIcon" value="7blockbuster"/>
-			<property name="DescriptionKey" value="mayicmodBlockBusterDesc"/>
-			<property name="Stacknumber" value="1"/>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
-			<property name="EconomicValue" value="50000"/>
-			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="true"/>
-			
-		<item_property_overrides name="mayicgunFlamethrower">
-			<property name="Magazine_items" value="mayicammoGrassBomb"/>
-		</item_property_overrides>
-			
-
-			<effect_group tiered="false">
-				<passive_effect name="BlockDamage" operation="base_set" value="25"/>
-				</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
 	
@@ -6300,18 +6280,20 @@ tags=gun(universal) Unity tag Parent:CustomAttachments Child:CustomBarrel
 		</item_property_overrides>
 		
 			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value="25" tags="primary,secondary"/>
+			<display_value name="dNoiseMultiplier" value="25"/>
 				<passive_effect name="BlockDamage" operation="base_subtract" value="5"/>
 				<passive_effect name="SpreadMultiplierHip" operation="perc_add" value=".1"/>
 				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".1"/>
-				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value="-.12"/>
+				<passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".12"/>
 				<passive_effect name="DamageFalloffRange" operation="perc_add" value="-.15"/>
 				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".15"/>
-				<passive_effect name="KickDegreesVertical" operation="perc_add" value="5"/>
+				<passive_effect name="KickDegreesVertical" operation="perc_add" value=".1"/>
 				
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?CustomSilencePrefab" parent_transform="CustomBarrel"/>
 			</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
 			<property name="EconomicValue" value="5000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
@@ -6331,12 +6313,14 @@ XMLtags=customGrip Unity tag Parent:CustomAttachments Child:Grip
 		<property name="CustomIcon" value="7handgrip"/>
 			<property name="DescriptionKey" value="mayicmodHandGripDesc"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
 			<property name="EconomicValue" value="4500"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
 		
 			<effect_group tiered="false">
+				<passive_effect name="SpreadMultiplierWalking" operation="perc_add" value="-.5"/>
+				<passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.3"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HandGripPrefab" parent_transform="Grip"/>
 			</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
@@ -6356,15 +6340,18 @@ XMLtags=customLaser Unity tag Parent:CustomAttachments Child:Laser
 		<property name="CustomIcon" value="7lasermod"/>
 			<property name="DescriptionKey" value="mayicmodLaserSideDesc"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
 			<property name="EconomicValue" value="12000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
 
 			<effect_group tiered="false">
+			<passive_effect name="NoiseMultiplier" operation="perc_subtract" value=".1" tags="walking"/>
+			<display_value name="dNoiseMultiplier" value=".1"/>
 			<passive_effect name="CrouchSpeed" operation="perc_add" value=".2"/>
-			<passive_effect name="JumpStrength" operation="perc_add" value="2" tags="crouching"/>
+			<passive_effect name="JumpStrength" operation="perc_add" value=".2" tags="crouching"/>
 			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.5"/>
+			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.25"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?LaserPrefab" parent_transform="Laser"/>
 			<triggered_effect trigger="onSelfItemActivate" action="AnimatorSetBool" target="self" property="modtrigger" value="true"/>
 			<triggered_effect trigger="onSelfItemDeactivate" action="AnimatorSetBool" target="self" property="modtrigger" value="false"/>
@@ -6383,21 +6370,73 @@ XMLtags=customBlade Unity tag Parent:CustomAttachments Child:Blade
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->		
 	<item_modifier name="mayicmodBayonet" installable_tags="customBlade" modifier_tags="customBlade" type="attachment">
-		<property name="CustomIcon" value="7bayonetmod"/>
+			<property name="CustomIcon" value="7bayonetmod"/>
 			<property name="DescriptionKey" value="mayicmodBayonetDesc"/>
 			<property name="Stacknumber" value="1"/>
-			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
 			<property name="EconomicValue" value="3000"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="SellableToTrader" value="true"/>
 
 			<effect_group tiered="false">
-			<passive_effect name="WalkSpeed" operation="perc_add" value=".7"/>
-			<passive_effect name="RunSpeed" operation="perc_add" value=".3"/>
-			<passive_effect name="StaminaChangeOT" operation="base_add" value=".25" tags="running"/>
+			<passive_effect name="RunSpeed" operation="perc_add" value="30"/>
+			<passive_effect name="StaminaChangeOT" operation="base_add" value="100" tags="running"/>
 				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?BayonetPrefab" parent_transform="Blade"/>
 			</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
+	
+	
+	
+	
+	
+	<item_modifier name="mayicmodQuickMag" installable_tags="customMag" modifier_tags="magazine" type="attachment">
+			<property name="CustomIcon" value="7quickmag"/>
+			<property name="DescriptionKey" value="mayicmodQuickMagDesc"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="7500"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+
+			<effect_group tiered="false">
+				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1.2"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	
+	<item_modifier name="mayicmodBananaClip" installable_tags="customMag" modifier_tags="magazine" type="attachment">
+			<property name="CustomIcon" value="7bananamag"/>
+			<property name="DescriptionKey" value="mayicmodBananaClipDesc"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="7500"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+
+			<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="perc_add" value="1"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	
+	<item_modifier name="mayicmodDrumMag" installable_tags="customMag" modifier_tags="magazine" type="attachment">
+			<property name="CustomIcon" value="7drummag"/>
+			<property name="DescriptionKey" value="mayicmodDrumMagDesc"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="AllMods,ModAttachment"/>
+			<property name="EconomicValue" value="7500"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+
+			<effect_group tiered="false">
+			<passive_effect name="MagazineSize" operation="perc_add" value="4"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	
+	
 	</append>
-</configs>			
+</potato>			
