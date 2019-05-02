@@ -2897,7 +2897,7 @@
 			<property name="Tags" value="test,customBlade,customLaser,customGrip,weapon,ranged,holdBreathAiming,reloadPenalty,gun,revolver,selfLoading"/>
 			<property name="DisplayType" value="rangedGun"/>
 			<property name="HoldType" value="19"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Flametest.unity3d?FlamethrowerPrefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?FlamethrowerPrefab"/>
 			<property name="CustomIcon" value="7flamethrower"/>
 			<property name="DescriptionKey" value="mayicgunFlamethrowerDesc"/>
 			<property name="Material" value="MayicScrapGun"/>
@@ -2917,12 +2917,12 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Magazine_items" value="mayicammoFlameFuel,mayicammoExplosiveround"/>
-				<property name="Sound_start" value=""/>
-				<property name="Sound_end" value=""/>
-				<property name="Sound_empty" value="weapon_empty"/>
-				<property name="Sound_reload" value="ak47_reload"/>
+				<property name="Sound_start" value="flamethrower"/>
+				<property name="Sound_repeat" value="flamethroweridle"/>
+				<property name="Sound_empty" value="auger_empty"/>
+				<property name="Sound_reload" value="Auger_Reload"/>
 				<property name="Particles_muzzle_fire" value=""/>
-				<property name="Particles_muzzle_smoke" value=""/></property>
+				<property name="Particles_muzzle_smoke" value="nozzlesmoke_chainsaw"/></property>
 			<property class="Action1">
 				<property name="Class" value="Zoom"/>
 				<property name="Zoom_max_out" value="55"/>
@@ -3148,7 +3148,7 @@
 			<property name="Extends" value="mayicgunFNFAL"/>
 			<property name="Tags" value="customBlade,customLaser,customGrip,weapon,ranged,holdBreathAiming,reloadPenalty,gun,barrelAttachments,sideAttachments,stock,magazine,light,selfLoading,perkDeadEye"/>
 			<property name="HoldType" value="26"/>
-			<property name="Meshfile" value="#@modfolder:Resources/LaserRifle.unity3d?LaserRiflePrefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?LaserRiflePrefab"/>
 			<property name="CustomIcon" value="7laserrifle"/>
 			<property name="Material" value="MayicScrapGun"/>
 			<property name="Weight" value="60"/>

@@ -176,7 +176,7 @@
 			<property name="CustomIcon" value="7researchtable"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="Shape" value="ModelEntity"/>
-			<property name="Model" value="#@modfolder:Resources/ResearchTable.unity3d?ResearchTablePrefab" param1="main_mesh"/>
+			<property name="Model" value="#@modfolder:Resources/Blocks.unity3d?ResearchTablePrefab" param1="main_mesh"/>
 			<property name="Path" value="solid"/>
 			<property name="DisplayType" value="blockMulti"/>
 			<property name="MultiBlockDim" value="1,2,2"/>

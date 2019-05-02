@@ -2748,7 +2748,7 @@
 			</item_property_overrides>
 			<effect_group tiered="false">
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ACOGx2.unity3d?ACOG2xPrefabGreen" parent_transform="Attachments/Scope"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOG2xPrefabGreen" parent_transform="Attachments/Scope"/>
 			</effect_group>
 			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
 			<property name="EconomicValue" value="9000"/>
@@ -3026,7 +3026,7 @@
 			</item_property_overrides>
 			<effect_group tiered="false">
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ACOGx2.unity3d?ACOG2xPrefabBlue" parent_transform="Attachments/Scope"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOG2xPrefabBlue" parent_transform="Attachments/Scope"/>
 			</effect_group>
 			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
 			<property name="EconomicValue" value="9000"/>
@@ -3297,7 +3297,7 @@
 			</item_property_overrides>
 			<effect_group tiered="false">
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ACOGx2.unity3d?ACOG2xPrefabRed" parent_transform="Attachments/Scope"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?ACOG2xPrefabRed" parent_transform="Attachments/Scope"/>
 			</effect_group>
 			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
 			<property name="EconomicValue" value="9000"/>
@@ -5517,7 +5517,7 @@
 			</item_property_overrides>
 			<effect_group tiered="false">
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ScopeTest.unity3d?HairSightPrefab" parent_transform="Attachments/Scope"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HairSightPrefab" parent_transform="Attachments/Scope"/>
 			</effect_group>
 			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
 			<property name="EconomicValue" value="5000"/>
@@ -5800,7 +5800,7 @@
 			</item_property_overrides>
 			<effect_group tiered="false">
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ScopeTest.unity3d?HairSight2xPrefab" parent_transform="Attachments/Scope"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HairSight2xPrefab" parent_transform="Attachments/Scope"/>
 			</effect_group>
 			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
 			<property name="EconomicValue" value="9000"/>
@@ -6083,7 +6083,7 @@
 			</item_property_overrides>
 			<effect_group tiered="false">
 				<passive_effect name="WeaponHandling" operation="perc_add" value="0.5"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ScopeTest.unity3d?HairSight4xPrefab" parent_transform="Attachments/Scope"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HairSight4xPrefab" parent_transform="Attachments/Scope"/>
 			</effect_group>
 			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
 			<property name="EconomicValue" value="15000"/>
@@ -6308,7 +6308,7 @@ tags=gun(universal) Unity tag Parent:CustomAttachments Child:CustomBarrel
 				<passive_effect name="IncrementalSpreadMultiplier" operation="perc_add" value=".15"/>
 				<passive_effect name="KickDegreesVertical" operation="perc_add" value="5"/>
 				
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ModTest.unity3d?CustomSilencePrefab" parent_transform="CustomBarrel"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?CustomSilencePrefab" parent_transform="CustomBarrel"/>
 			</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 			<property name="Group" value="FirearmsCustom,AllFirearm,ModFirearm"/>
@@ -6337,7 +6337,7 @@ XMLtags=customGrip Unity tag Parent:CustomAttachments Child:Grip
 			<property name="SellableToTrader" value="true"/>
 		
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ModTest.unity3d?HandGripPrefab" parent_transform="Grip"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?HandGripPrefab" parent_transform="Grip"/>
 			</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -6365,7 +6365,7 @@ XMLtags=customLaser Unity tag Parent:CustomAttachments Child:Laser
 			<passive_effect name="CrouchSpeed" operation="perc_add" value=".2"/>
 			<passive_effect name="JumpStrength" operation="perc_add" value="2" tags="crouching"/>
 			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.5"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ModTest.unity3d?LaserPrefab" parent_transform="Laser"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?LaserPrefab" parent_transform="Laser"/>
 			<triggered_effect trigger="onSelfItemActivate" action="AnimatorSetBool" target="self" property="modtrigger" value="true"/>
 			<triggered_effect trigger="onSelfItemDeactivate" action="AnimatorSetBool" target="self" property="modtrigger" value="false"/>
 			</effect_group>
@@ -6395,7 +6395,7 @@ XMLtags=customBlade Unity tag Parent:CustomAttachments Child:Blade
 			<passive_effect name="WalkSpeed" operation="perc_add" value=".7"/>
 			<passive_effect name="RunSpeed" operation="perc_add" value=".3"/>
 			<passive_effect name="StaminaChangeOT" operation="base_add" value=".25" tags="running"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/ModTest.unity3d?BayonetPrefab" parent_transform="Blade"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?BayonetPrefab" parent_transform="Blade"/>
 			</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
