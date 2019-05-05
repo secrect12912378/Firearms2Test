@@ -16,9 +16,9 @@
 		
 		<crafting_category_list display_type="mayicblockAmmoWorkbench">
 			<crafting_category name="AllRounds" icon="icon_ammo_large" display_name="All Ammo"/>
-			<crafting_category name="LowRounds" icon="icon_ammo_smallbullet" display_name="Low Cal"/>
-			<crafting_category name="MedRounds" icon="icon_ammo_shotgunshell" display_name="Medium Cal"/>
-			<crafting_category name="HighRounds" icon="icon_ammo_largebullet" display_name="Heavy Cal"/>
+			<crafting_category name="LowRounds" icon="icon_ammo_lowcal" display_name="Low Cal"/>
+			<crafting_category name="MedRounds" icon="icon_ammo_shotguncase" display_name="Medium Cal"/>
+			<crafting_category name="HighRounds" icon="icon_ammo_highcal" display_name="Heavy Cal"/>
 			<crafting_category name="ExplosiveRounds" icon="icon_ammo_40mm" display_name="Explosives"/>
 			<crafting_category name="SpecialAmmo" icon="icon_image_star" display_name="Special Ammo"/>
 			<crafting_category name="ScrapAmmo" icon="7scrapammo" display_name="Scrap"/>
@@ -27,21 +27,21 @@
 		<crafting_category_list display_type="mayicblockResearchTable">
 			<crafting_category name="CustomResearch" icon="icon_image_bp" display_name="All Books"/>
 			<crafting_category name="CustomRGun" icon="icon_gun_smg" display_name="Firearms"/>
-			<crafting_category name="CustomRAmmo" icon="icon_ammo_shotgunshell2" display_name="Ammunition"/>
+			<crafting_category name="CustomRAmmo" icon="icon_ammo_shotguncase" display_name="Ammunition"/>
 			<crafting_category name="CustomRMods" icon="icon_mod_acog" display_name="Mods"/>
-			<crafting_category name="CustomRParts" icon="icon_mod_acog" display_name="Gun Parts"/>
+			<crafting_category name="CustomRParts" icon="icon_part_medium" display_name="Gun Parts"/>
 			<crafting_category name="CustomRScrap" icon="7scrapbp" display_name="Scrap"/>
 		</crafting_category_list>
 		
 		<crafting_category_list display_type="mayicblockModWorkbench">
 			<crafting_category name="AllMods" icon="ui_game_symbol_weapon_smithing" display_name="All Mods"/>
-			<crafting_category name="AllParts" icon="ui_game_symbol_weapon_smithing" display_name="All Parts"/>
 			<crafting_category name="ModScope" icon="icon_mod_acog" display_name="Scopes"/>
 			<crafting_category name="ModAttachment" icon="icon_mod_grip" display_name="Attachments"/>
 			<crafting_category name="ModSpecial" icon="icon_image_star" display_name="Special"/>
+			<crafting_category name="AllParts" icon="ui_game_symbol_weapon_smithing" display_name="All Parts"/>
 			<crafting_category name="PartLow" icon="icon_part_small" display_name="Low Tier Parts"/>
-			<crafting_category name="PartMed" icon="icon_image_star" display_name="Med Tier Parts"/>
-			<crafting_category name="PartHigh" icon="icon_image_star" display_name="High Tier Parts"/>
+			<crafting_category name="PartMed" icon="icon_part_medium" display_name="Med Tier Parts"/>
+			<crafting_category name="PartHigh" icon="icon_part_large" display_name="High Tier Parts"/>
 		</crafting_category_list>
 	</append>
 	

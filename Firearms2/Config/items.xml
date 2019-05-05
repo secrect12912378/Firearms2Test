@@ -63,7 +63,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -121,7 +120,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -183,7 +181,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -245,7 +242,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -310,7 +306,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -372,7 +367,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -434,7 +428,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -499,7 +492,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -561,7 +553,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.2"/>
@@ -623,7 +614,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -686,7 +676,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -746,7 +735,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -826,7 +814,6 @@
 				<!-- 2s -->
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.9"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.9"/>
@@ -885,7 +872,6 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="10000"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.9"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.9"/>
@@ -951,7 +937,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.7"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.7"/>
@@ -1013,7 +998,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.7"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.7"/>
@@ -1073,7 +1057,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -1131,7 +1114,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -1193,7 +1175,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".65"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.1"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.1"/>
@@ -1257,7 +1238,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.7"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.7"/>
@@ -1340,7 +1320,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="6.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-2.75,2.75"/>
@@ -1408,7 +1387,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
@@ -1474,7 +1452,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="3.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.25,1.25"/>
@@ -1540,7 +1517,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
@@ -1608,7 +1584,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
@@ -1674,7 +1649,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
@@ -1744,7 +1718,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1761,7 +1734,6 @@
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" property="shooting" value="true"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AnimatorSetBool" target="self" property="shooting" value="false"/>
@@ -1810,7 +1782,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -1867,7 +1838,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1924,7 +1894,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1982,7 +1951,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2042,7 +2010,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2105,7 +2072,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2169,7 +2135,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2228,7 +2193,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2287,7 +2251,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2351,7 +2314,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".81"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
@@ -2411,7 +2373,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
@@ -2484,7 +2445,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".4"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2545,7 +2505,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".2"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2606,7 +2565,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -2670,7 +2628,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -2734,7 +2691,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".62"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
@@ -2798,7 +2754,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".62"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
@@ -2863,7 +2818,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8,2" tier="1,6"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6,1" tier="1,6"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6,1" tier="1,6"/>
@@ -2930,7 +2884,6 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="1"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -3008,7 +2961,6 @@
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" property="shoot" value="true"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AnimatorSetBool" target="self" property="shoot" value="false"/>
@@ -3056,7 +3008,7 @@
 				<passive_effect name="RoundsPerMinute" operation="base_set" value="300"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="10000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="200"/>
-				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".4"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="3"/> <!-- .4 -->
 				<passive_effect name="WalkSpeed" operation="base_set" value="0.75"/>
 				<passive_effect name="RunSpeed" operation="base_set" value="0.85"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4"/>
@@ -3074,7 +3026,6 @@
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" property="shooting" value="true"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AnimatorSetBool" target="self" property="shooting" value="false"/>
@@ -3126,7 +3077,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
@@ -3180,7 +3130,6 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="1"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
@@ -3249,7 +3198,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.1"/>
@@ -3309,7 +3257,6 @@
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
-				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -4103,9 +4050,9 @@
 		<item name="mayicammo40mmMini">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammo40mmMiniDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefab"/>
 			<property name="HoldType" value="45"/>
-			<property name="CustomIcon"	value="7explosivemm"/>
+			<property name="CustomIcon"	value="740mini"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4137,9 +4084,9 @@
 		<item name="mayicammoGrassBomb">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammoGrassBombDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefab"/>
 			<property name="HoldType" value="45"/>
-			<property name="CustomIcon"	value="7explosivemm"/>
+			<property name="CustomIcon"	value="7grassbomb"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4173,7 +4120,7 @@
 		<item name="mayicammo40mmExplosive">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammo40mmExplosiveDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefab"/>
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon"	value="740mm"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
@@ -5113,6 +5060,19 @@ Mmetal
 	<property name="Group" value="AllParts"/>
 </item>
 
+<item name="mayicpartFlamethrowerTank">
+	<property name="HoldType" value="45"/>
+	<property name="CustomIcon" value="7flametank"/>
+	<property name="Meshfile" value="Items/Misc/sackPrefab"/>
+	<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+	<property name="Material" value="Mmetal"/>
+	<property name="Stacknumber" value="6000"/> 
+	<property name="Weight" value="1"/>
+	<property name="EconomicValue" value="20"/>
+	<property name="EconomicBundleSize" value="10"/>
+	<property name="Group" value="AllParts"/>
+</item>
+
 
 <!--
 
@@ -5939,7 +5899,7 @@ Mmetal
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="35000"/>
 			<property name="CustomIcon" value="7flamethrowers"/>
-			<property name="Weight" value="20"/>
+			<property name="Weight" value="12"/>
 			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicgunLaserRifle" operation="Equals" value="0"/> 
@@ -6538,7 +6498,7 @@ Mmetal
 		<item name="mayicmodHairSightSchematic">
 			<property name="Extends" value="mayicmodACOGSchematic"/>
 			<property name="CustomIcon" value="7hairsights"/>
-			<property name="Weight" value="8"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="20000"/>
@@ -6554,7 +6514,7 @@ Mmetal
 		<item name="mayicmodHairSightx2Schematic">
 			<property name="Extends" value="mayicmodACOGSchematic"/>
 			<property name="CustomIcon" value="7hairsightx2s"/>
-			<property name="Weight" value="8"/>
+			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="20000"/>
@@ -6586,7 +6546,7 @@ Mmetal
 		<item name="mayicmodHandGripSchematic">
 			<property name="Extends" value="mayicmodACOGSchematic"/>
 			<property name="CustomIcon" value="7handgrips"/>
-			<property name="Weight" value="8"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="20000"/>
@@ -6602,7 +6562,7 @@ Mmetal
 		<item name="mayicmodLaserSideSchematic">
 			<property name="Extends" value="mayicmodACOGSchematic"/>
 			<property name="CustomIcon" value="7lasermods"/>
-			<property name="Weight" value="8"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="20000"/>
@@ -6618,7 +6578,7 @@ Mmetal
 		<item name="mayicmodBayonetSchematic">
 			<property name="Extends" value="mayicmodACOGSchematic"/>
 			<property name="CustomIcon" value="7bayonetmods"/>
-			<property name="Weight" value="8"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="20000"/>
@@ -6635,7 +6595,7 @@ Mmetal
 			<property name="Extends" value="mayicmodACOGSchematic"/>
 			<property name="DescriptionKey" value="mayicmodExtendedSilencerSchematicDesc"/>
 			<property name="CustomIcon" value="7customsilencers"/>
-			<property name="Weight" value="8"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="20000"/>
@@ -6667,7 +6627,7 @@ Mmetal
 		<item name="mayicmodQuickMagSchematic">
 			<property name="Extends" value="mayicmodACOGSchematic"/>
 			<property name="CustomIcon" value="7quickmags"/>
-			<property name="Weight" value="8"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="20000"/>
@@ -6683,7 +6643,7 @@ Mmetal
 		<item name="mayicmodBananaClipSchematic">
 			<property name="Extends" value="mayicmodACOGSchematic"/>
 			<property name="CustomIcon" value="7bananas"/>
-			<property name="Weight" value="8"/>
+			<property name="Weight" value="3"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="20000"/>
@@ -6699,7 +6659,7 @@ Mmetal
 		<item name="mayicmodDrumMagSchematic">
 			<property name="Extends" value="mayicmodACOGSchematic"/>
 			<property name="CustomIcon" value="7drummags"/>
-			<property name="Weight" value="8"/>
+			<property name="Weight" value="5"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="20000"/>
@@ -6726,6 +6686,7 @@ Mmetal
 		
 		<item name="mayicpartSmReceiverSchematic">
 			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Weight" value="2"/>
 			<property name="DescriptionKey" value="mayicpartSmReceiverSchematicDesc"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
@@ -6742,6 +6703,7 @@ Mmetal
 		</item>
 		<item name="mayicpartSmBarrelSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6757,6 +6719,7 @@ Mmetal
 		</item>
 		<item name="mayicpartSmStockSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6772,6 +6735,7 @@ Mmetal
 		</item>
 		<item name="mayicpartSmGripSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6789,6 +6753,7 @@ Mmetal
 		
 		<item name="mayicpartMedReceiverSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6804,6 +6769,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartMedBarrelSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6819,6 +6785,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartMedStockSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6834,6 +6801,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartMedGripSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6850,6 +6818,7 @@ Mmetal
 		
 		<item name="mayicpartLrgReceiverSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6865,6 +6834,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartLrgBarrelSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6880,6 +6850,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartLrgStockSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6895,6 +6866,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartLrgGripSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6913,6 +6885,7 @@ Mmetal
 		
 		<item name="mayicpartShortBarrelSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6922,12 +6895,13 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicgunM9" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicpartMountRails" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicpartMountRails" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicpartShortBarrel" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicpartShortBarrel" operation="subtract" value="1"/>
 			</effect_group>
 		</item>	
 		<item name="mayicpartMountRailsSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6943,6 +6917,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartLongBarrelSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6952,14 +6927,15 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicgunM9" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicpartMountRails" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicpartMountRails" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicpartLongBarrel" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicpartLongBarrel" operation="subtract" value="1"/>
 			</effect_group>
 		</item>	
 		
 		
 		<item name="mayicpartForwardAssistSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6975,6 +6951,7 @@ Mmetal
 		</item>
 		<item name="mayicpartSlideBarSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -6990,6 +6967,7 @@ Mmetal
 		</item>
 		<item name="mayicpartBreechBoltSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -7006,6 +6984,7 @@ Mmetal
 		
 		<item name="mayicpartHammerSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="2"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -7021,6 +7000,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartTriggerSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -7036,6 +7016,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartCompressorSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="4"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -7051,6 +7032,7 @@ Mmetal
 		</item>	
 		<item name="mayicpartHandguardSchematic">
 			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -7065,14 +7047,56 @@ Mmetal
 			</effect_group>
 		</item>
 		
+		<item name="mayicpartFlamethrowerTankSchematic">
+			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="2700"/>
+			<property name="CustomIcon" value="7flametanks"/>
+			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicgunM9" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicpartFlamethrowerTank" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicpartFlamethrowerTank" operation="subtract" value="1"/>
+			</effect_group>
+		</item>
 		
+		<item name="mayicpartChaingunGearSchematic">
+			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="2700"/>
+			<property name="CustomIcon" value="7chaingungears"/>
+			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicgunM9" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicpartChaingunGear" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicpartChaingunGear" operation="subtract" value="1"/>
+			</effect_group>
+		</item>
 		
-		
-		
-		
-		
-		
-		
+		<item name="mayicpartAlienFrameSchematic">
+			<property name="Extends" value="mayicpartSmReceiverSchematic"/>
+			<property name="Weight" value="6"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="2700"/>
+			<property name="CustomIcon" value="7alienframes"/>
+			<property name="Group" value="Books,CustomResearch,CustomRParts"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicgunM9" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicpartAlienFrame" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicpartAlienFrame" operation="subtract" value="1"/>
+			</effect_group>
+		</item>
 		
 		
 		

@@ -96,7 +96,6 @@
 		<rect height="43" style="press, hover, scroll" controller="RecipeEntry" disabled_font_color="[disabledLabelColor]" enabled_font_color="[labelColor]" sound="[recipe_click]" >
 			<sprite depth="2" name="backgroundMain" sprite="menu_empty3px" pos="-3,3" width="298" height="49" color="[white_quarter_alpha]" type="sliced" fillcenter="false" />
 			<sprite depth="4" name="Icon" atlas="ItemIconAtlas" sprite="{recipeicon}" color="{recipeicontint}" size="52,38" pos="6,-4" foregroundlayer="true"/>
-			<sprite depth="2" name="background" sprite="menu_empty3px" pos="0,0" width="65" height="44" color="[black]" type="sliced" fillcenter="false" />	
 			<sprite color="[white]" type="sliced" width="65" height="43" pos="0,0" />
 			<sprite depth="3" name="background" width="100%" height="45" pos="0,1" color="[black]" type="sliced" />
 			<label depth="4" name="Name" pos="195,-19" width="250" height="30" text="{recipename}" font_size="28" color="{hasingredientsstatecolor}" justify="left" pivot="center"/>

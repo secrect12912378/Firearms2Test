@@ -309,6 +309,10 @@
 			<item name="mayicpartHammer" count="1" prob=".13"/>
 			<item name="mayicpartCompressor" count="1" prob=".13"/>
 			<item name="mayicpartHandguard" count="1" prob=".05"/>
+			
+			<item name="mayicpartFlamethrowerTank" count="1" prob=".005"/>
+			<item name="mayicpartChaingunGear" count="1" prob=".00005"/>
+			<item name="mayicpartAlienFrame" count="1" prob=".00005"/>
 		</lootgroup>
 		<!-- Master Grouping -->
 		<lootgroup name="PistolT1" count="1">
@@ -489,6 +493,9 @@
 		<item name="mayicpartBreechBoltSchematic" count="1" prob=".05"/>
 		<item name="mayicpartCompressorSchematic" count="1" prob=".13"/>
 		<item name="mayicpartHandguardSchematic" count="1" prob=".05"/>
+		<item name="mayicpartFlamethrowerTank" count="1" prob=".005"/>
+		<item name="mayicpartChaingunGear" count="1" prob=".00005"/>
+		<item name="mayicpartAlienFrame" count="1" prob=".00005"/>
 		<item name="mayicgunGlock40Schematic" prob="0.45"/>
 		<item name="mayicgunUSPSchematic" prob="0.45"/>
 		<item name="mayicgun1911Schematic" prob="0.45"/>
