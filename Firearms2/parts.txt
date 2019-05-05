@@ -60,7 +60,14 @@ mayicpartTrigger
 mayicpartCompressor	  
 mayicpartHandguard		
      		-    -
-
+			
+			
+mayicpartFlamethrowerTank
+mayicpartChaingunGear
+mayicpartAlienFrame
+mayicpartFlamethrowerTankSchematic
+mayicpartChaingunGearSchematic
+mayicpartAlienFrameSchematic
 
    mayicpartSmReceiver   
 			resourceScrapIron   		120   
