@@ -3027,8 +3027,8 @@
 				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
 				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
-				<triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" property="shooting" value="true"/>
-				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AnimatorSetBool" target="self" property="shooting" value="false"/>
+				<triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" range="100" property="shooting" value="true"/>
+				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AnimatorSetBool" target="self" range="100" property="shooting" value="false"/>
 			</effect_group>
 		</item>
 		<!-- LAUNCHERS -->
@@ -3294,7 +3294,7 @@
 		<item name="mayicammo10mm">
 			<property name="DisplayType" value="ammoBullet"/>
 			<property name="DescriptionKey" value="mayicammo10mmDesc"/>
-			<property name="CustomIcon" value="710mm"/>
+			<property name="CustomIcon" value="7lowcalsmg"/>
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -3317,7 +3317,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo10mmSteelDesc"/>
-			<property name="CustomIcon" value="710mms"/>
+			<property name="CustomIcon" value="7lowcalsmgs"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3335,7 +3335,7 @@
 		<!--                          Pistols                        -->
 		<item name="mayicammo9x19mm">
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="79x19"/>
+			<property name="CustomIcon" value="7tinycalsmg"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3354,7 +3354,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="EconomicValue" value="3"/>
-			<property name="CustomIcon" value="79x19s"/>
+			<property name="CustomIcon" value="7tinycalsmgs"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicBundleSize" value="4"/>
@@ -3371,7 +3371,7 @@
 		</item>
 		<item name="mayicammo38cal">
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="738"/>
+			<property name="CustomIcon" value="7tinycalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3390,7 +3390,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo38calSteelDesc"/>
-			<property name="CustomIcon" value="738s"/>
+			<property name="CustomIcon" value="7tinycalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3407,7 +3407,7 @@
 		</item>
 		<item name="mayicammo9mm">
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="79mm"/>
+			<property name="CustomIcon" value="7lowcalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3426,7 +3426,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo9mmSteelDesc"/>
-			<property name="CustomIcon" value="79mms"/>
+			<property name="CustomIcon" value="7lowcalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3443,7 +3443,7 @@
 		</item>
 		<item name="mayicammo40cal">
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="740"/>
+			<property name="CustomIcon" value="7lowcalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
@@ -3462,7 +3462,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo40calSteelDesc"/>
-			<property name="CustomIcon" value="740s"/>
+			<property name="CustomIcon" value="7lowcalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
@@ -3480,7 +3480,7 @@
 		<!-- mayicgun1911 -->
 		<item name="mayicammo45acp">
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="745acp"/>
+			<property name="CustomIcon" value="7medcalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
@@ -3501,7 +3501,7 @@
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
 			<property name="DescriptionKey" value="mayicammo45acpSteelDesc"/>
-			<property name="CustomIcon" value="745acps"/>
+			<property name="CustomIcon" value="7medcalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,MedRounds"/>
@@ -3517,7 +3517,7 @@
 		<!-- mayicgunDesertEagle -->
 		<item name="mayicammo50ae">
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="750ae"/>
+			<property name="CustomIcon" value="7medcalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
@@ -3538,7 +3538,7 @@
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
-			<property name="CustomIcon" value="750aes"/>
+			<property name="CustomIcon" value="7medcalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,HighRounds"/>
@@ -3573,7 +3573,7 @@
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
-			<property name="DescriptionKey" value="mayicammo357magnumSteelDesc"/>
+			<property name="DescriptionKey" value="7357s"/>
 			<property name="CustomIcon" value="7357s"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3589,7 +3589,7 @@
 		</item>
 		<item name="mayicammo5.7x28mm">
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="75728"/>
+			<property name="CustomIcon" value="7tinycalsmg"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3607,7 +3607,7 @@
 		<item name="mayicammo5.7x28mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="75728s"/>
+			<property name="CustomIcon" value="7tinycalsmgs"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3688,7 +3688,7 @@
 		<item name="mayicammo22lr">
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo22lrDesc"/>
-			<property name="CustomIcon" value="722lr"/>
+			<property name="CustomIcon" value="7smallcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3706,7 +3706,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo22lrSteelDesc"/>
-			<property name="CustomIcon" value="722lrs"/>
+			<property name="CustomIcon" value="7smallcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
@@ -3724,7 +3724,7 @@
 		<item name="mayicammo223cal">
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo223calDesc"/>
-			<property name="CustomIcon" value="7223"/>
+			<property name="CustomIcon" value="7smallcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
@@ -3742,7 +3742,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo223calSteelDesc"/>
-			<property name="CustomIcon" value="7223s"/>
+			<property name="CustomIcon" value="7smallcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
@@ -3760,7 +3760,7 @@
 		<item name="mayicammo5.56x45mm">
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo5.56x45mmDesc"/>
-			<property name="CustomIcon" value="755645"/>
+			<property name="CustomIcon" value="7medcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
@@ -3777,7 +3777,7 @@
 		<item name="mayicammo5.56x45mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="755645s"/>
+			<property name="CustomIcon" value="7medcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="4"/>
@@ -3796,7 +3796,7 @@
 		<item name="mayicammo7.62x39mm">
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo7.62x39mmDesc"/>
-			<property name="CustomIcon" value="776239"/>
+			<property name="CustomIcon" value="7medcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="5"/>
@@ -3816,7 +3816,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo7.62x39mmSteelDesc"/>
-			<property name="CustomIcon" value="776239s"/>
+			<property name="CustomIcon" value="7medcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="5"/>
@@ -3836,7 +3836,7 @@
 		<item name="mayicammo7.62x51mm">
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo7.62x51mmDesc"/>
-			<property name="CustomIcon" value="776251"/>
+			<property name="CustomIcon" value="7highcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
@@ -3856,7 +3856,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo7.62x51mmSteelDesc"/>
-			<property name="CustomIcon" value="776251s"/>
+			<property name="CustomIcon" value="7highcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
@@ -3875,7 +3875,7 @@
 		</item>
 		<item name="mayicammo30-06">
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="73006"/>
+			<property name="CustomIcon" value="7topcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
@@ -3894,7 +3894,7 @@
 		<item name="mayicammo30-06Steel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
-			<property name="CustomIcon" value="73006s"/>
+			<property name="CustomIcon" value="7topcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
@@ -3914,7 +3914,7 @@
 		<item name="mayicammo338cal">
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo338calDesc"/>
-			<property name="CustomIcon" value="7338"/>
+			<property name="CustomIcon" value="7highcallarge"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
@@ -3934,7 +3934,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo338calSteelDesc"/>
-			<property name="CustomIcon" value="7338s"/>
+			<property name="CustomIcon" value="7highcallarges"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="6"/>
@@ -3954,7 +3954,7 @@
 		<item name="mayicammo50cal">
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo50calDesc"/>
-			<property name="CustomIcon" value="750"/>
+			<property name="CustomIcon" value="7topcallarge"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="7"/>
@@ -3974,7 +3974,7 @@
 			<property name="DisplayType" value="ammoBulletSteel"/>
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
-			<property name="CustomIcon" value="750s"/>
+			<property name="CustomIcon" value="7topcallarges"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="7"/>
@@ -4050,9 +4050,9 @@
 		<item name="mayicammo40mmMini">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammo40mmMiniDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefabTest"/>
 			<property name="HoldType" value="45"/>
-			<property name="CustomIcon"	value="740mini"/>
+			<property name="CustomIcon"	value="720mm"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4063,7 +4063,7 @@
 			<property name="ParticleName" value="nozzlesmoke_m136"/>
 			<property class="Action1">
 				<property name="Class" value="Projectile"/>
-				<property name="Explosion.ParticleIndex" value="1"/>
+				<property name="Explosion.ParticleIndex" value="0"/>
 				<property name="Explosion.RadiusBlocks" value="1"/>
 				<property name="Explosion.BlockDamage" value="10"/>
 				<property name="Explosion.RadiusEntities" value="3"/>
@@ -4079,12 +4079,13 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="10"/>
 				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
 				<display_value name="ExRadius" value="5" />
+				<triggered_effect trigger="onProjectileImpact" action="AnimatorSetTrigger" target="self" property="Activate" value="true"/>
 			</effect_group>
 		</item>
 		<item name="mayicammoGrassBomb">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammoGrassBombDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefabTest"/>
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon"	value="7grassbomb"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
@@ -4115,12 +4116,13 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
 				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
 				<display_value name="ExRadius" value="5" />
+				<triggered_effect trigger="onProjectileImpact" action="AnimatorSetTrigger" target="self" property="Activate" value="true"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo40mmExplosive">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammo40mmExplosiveDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefabTest"/>
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon"	value="740mm"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
@@ -4148,6 +4150,7 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="500"/>
 				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
 				<display_value name="ExRadius" value="5" />
+				<triggered_effect trigger="onProjectileImpact" action="AnimatorSetTrigger" target="self" property="Activate" value="true"/>
 			</effect_group>
 		</item>
 		<!--
@@ -4224,7 +4227,7 @@
 		<item name="mayicammoIncendiary">
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="mayicammoIncendiaryDesc"/>
-			<property name="CustomIcon" value="7incendiary"/>
+			<property name="CustomIcon" value="7incen"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="1"/>
 			<property name="EconomicValue" value="18"/>
@@ -4247,7 +4250,7 @@
 		<item name="mayicammoExplosive">
 			<property name="Extends" value="mayicammo10mm"/>
 			<property name="DescriptionKey" value="buffExplosiveRoundDesc"/>
-			<property name="CustomIcon" value="7explosive"/>
+			<property name="CustomIcon" value="7explosiveround"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="1"/>
 			<property name="EconomicValue" value="22"/>
@@ -5924,7 +5927,7 @@ Mmetal
 			<property name="Extends" value="mayicgunLugerSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="DescriptionKey" value="mayicschematicAmmoMasterDesc"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="7lowcalsmgsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="800"/>
@@ -5940,7 +5943,7 @@ Mmetal
 		<item name="mayicammo9x19mmSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="7tinycalsmgsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="500"/>
@@ -5956,7 +5959,7 @@ Mmetal
 		<item name="mayicammo9mmSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="7lowcalpistolsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1300"/>
@@ -5972,7 +5975,7 @@ Mmetal
 		<item name="mayicammo5.7x28mmSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="7tinycalsmgsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="900"/>
@@ -5988,7 +5991,7 @@ Mmetal
 		<item name="mayicammo38calSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="7tinycalpistolsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="400"/>
@@ -6004,7 +6007,7 @@ Mmetal
 		<item name="mayicammo40calSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="7lowcalpistolsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1500"/>
@@ -6020,7 +6023,7 @@ Mmetal
 		<item name="mayicammo45acpSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="7medcalpistolsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1500"/>
@@ -6036,7 +6039,7 @@ Mmetal
 		<item name="mayicammo50aeSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="7medcalpistolsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="5000"/>
@@ -6052,7 +6055,7 @@ Mmetal
 		<item name="mayicammo357magnumSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="7357sch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2500"/>
@@ -6069,7 +6072,7 @@ Mmetal
 		<item name="mayicammo20gaugeSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammosch20"/>
+			<property name="CustomIcon" value="720gsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1900"/>
@@ -6085,7 +6088,7 @@ Mmetal
 		<item name="mayicammoBirdShotSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschbird"/>
+			<property name="CustomIcon" value="7birdshotsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="500"/>
@@ -6101,7 +6104,7 @@ Mmetal
 		<item name="mayicammoDragonsbreathSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschdragon"/>
+			<property name="CustomIcon" value="7dragonsbreathsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="5000"/>
@@ -6117,7 +6120,7 @@ Mmetal
 		<item name="mayicammoElectricshellSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschele"/>
+			<property name="CustomIcon" value="7electricshotsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="5000"/>
@@ -6134,7 +6137,7 @@ Mmetal
 		<item name="mayicammo7.62x39mmSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschlarge"/>
+			<property name="CustomIcon" value="7medcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="800"/>
@@ -6150,7 +6153,7 @@ Mmetal
 		<item name="mayicammo223calSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschlarge"/>
+			<property name="CustomIcon" value="7smallcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="500"/>
@@ -6166,7 +6169,7 @@ Mmetal
 		<item name="mayicammo22lrSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschlarge"/>
+			<property name="CustomIcon" value="7smallcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="500"/>
@@ -6182,7 +6185,7 @@ Mmetal
 		<item name="mayicammo5.56x45mmSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschlarge"/>
+			<property name="CustomIcon" value="7medcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1200"/>
@@ -6198,7 +6201,7 @@ Mmetal
 		<item name="mayicammo30-06Schematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschlarge"/>
+			<property name="CustomIcon" value="7topcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1800"/>
@@ -6214,7 +6217,7 @@ Mmetal
 		<item name="mayicammo7.62x51mmSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschlarge"/>
+			<property name="CustomIcon" value="7highcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1800"/>
@@ -6230,7 +6233,7 @@ Mmetal
 		<item name="mayicammo338calSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschlarge"/>
+			<property name="CustomIcon" value="7highcallargesch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2200"/>
@@ -6246,7 +6249,7 @@ Mmetal
 		<item name="mayicammo50calSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschlarge"/>
+			<property name="CustomIcon" value="7topcallargesch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2500"/>
@@ -6262,7 +6265,7 @@ Mmetal
 		<item name="mayicammo5mmSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschsmall"/>
+			<property name="CustomIcon" value="75mmsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1100"/>
@@ -6278,7 +6281,7 @@ Mmetal
 		<item name="mayicammoGoldenbulletSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschgolden"/>
+			<property name="CustomIcon" value="7goldensch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="5000"/>
@@ -6294,7 +6297,7 @@ Mmetal
 		<item name="mayicammo40mmMiniSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammosch40"/>
+			<property name="CustomIcon" value="720mmsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="350"/>
@@ -6310,7 +6313,7 @@ Mmetal
 		<item name="mayicammo40mmExplosiveSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammosch40"/>
+			<property name="CustomIcon" value="740mmsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="4000"/>
@@ -6326,7 +6329,7 @@ Mmetal
 		<item name="mayicammoCorrosiveSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschexplosive"/>
+			<property name="CustomIcon" value="7corrosivesch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="12000"/>
@@ -6342,7 +6345,7 @@ Mmetal
 		<item name="mayicammoExplosiveSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschexplosive"/>
+			<property name="CustomIcon" value="7explosiveroundsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="12000"/>
@@ -6358,7 +6361,7 @@ Mmetal
 		<item name="mayicammoIncendiarySchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschincen"/>
+			<property name="CustomIcon" value="7incensch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="12000"/>
@@ -6374,7 +6377,7 @@ Mmetal
 		<item name="mayicammoLaserRoundSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschlaser"/>
+			<property name="CustomIcon" value="7laserroundsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="12000"/>
@@ -6390,7 +6393,7 @@ Mmetal
 		<item name="mayicammoFlameFuelSchematic">
 			<property name="Extends" value="mayicammo10mmSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7ammoschflame"/>
+			<property name="CustomIcon" value="7flamefuelsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="12000"/>

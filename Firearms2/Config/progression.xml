@@ -1,6 +1,6 @@
 <potato>
 <append xpath="progression/attributes">
-<attribute name="mayicattAdvancedFirearms" name_key="mayicattAdvancedFirearmsName" desc_key="mayicattAdvancedFirearmsDesc" icon="ui_game_symbol_gunslinger" base_skill_point_cost="1" cost_multiplier_per_level="1">
+<attribute name="mayicattAdvancedFirearms" name_key="mayicattAdvancedFirearmsName" desc_key="mayicattAdvancedFirearmsDesc" icon="ui_game_symbol_gunslinger" min_level="1" max_level="10" base_skill_point_cost="1" cost_multiplier_per_level="1">
 		<level_requirements level="1"><requirement name="PlayerLevel" target="self" operation="GTE" value="5" desc_key="Level 5"/></level_requirements>
 		<level_requirements level="2"><requirement name="PlayerLevel" target="self" operation="GTE" value="10" desc_key="Level 10"/></level_requirements>
 		<level_requirements level="3"><requirement name="PlayerLevel" target="self" operation="GTE" value="15" desc_key="Level 15"/></level_requirements>
@@ -64,10 +64,10 @@
 
 	<perk name="mayicperkCrafting" parent="mayicattAdvancedFirearms" name_key="mayicperkCraftingName" desc_key="mayicperkCraftingDesc" icon="ui_game_symbol_assemble">
 		<level_requirements level="1"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="1" desc_key="mayicperkCraftingRank1E"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="1" desc_key="mayicperkCraftingRank2E"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="1" desc_key="mayicperkCraftingRank3E"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="1" desc_key="mayicperkCraftingRank4E"/></level_requirements>
-		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="1" desc_key="mayicperkCraftingRank5E"/></level_requirements>
+		<level_requirements level="2"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="2" desc_key="mayicperkCraftingRank2E"/></level_requirements>
+		<level_requirements level="3"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="3" desc_key="mayicperkCraftingRank3E"/></level_requirements>
+		<level_requirements level="4"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="4" desc_key="mayicperkCraftingRank4E"/></level_requirements>
+		<level_requirements level="5"><requirement name="ProgressionLevel" progression_name="mayicattAdvancedFirearms" operation="GTE" value="10" desc_key="mayicperkCraftingRank5E"/></level_requirements>
 		<effect_group>
 			<passive_effect name="RecipeTagUnlocked" operation="base_set" value="1" level="1,5" tags="mayicblockGunWorkbench"/>		
 			
