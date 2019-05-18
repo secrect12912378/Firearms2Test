@@ -3037,7 +3037,7 @@
 			<property name="Tags" value="test,customBlade,customLaser,customGrip,customMag,weapon,ranged,holdBreathAiming,reloadPenalty,gun,revolver,selfLoading"/>
 			<property name="DisplayType" value="rangedGun"/>
 			<property name="HoldType" value="19"/>
-			<property name="Meshfile" value="#@modfolder:Resources/FlameTest.unity3d?FlamethrowerPrefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?FlamethrowerPrefab"/>
 			<!-- Firearms5 -->
 			<property name="CustomIcon" value="7flamethrower"/>
 			<property name="DescriptionKey" value="mayicgunFlamethrowerDesc"/>
@@ -4117,7 +4117,7 @@
 		<item name="mayicammo40mmMini">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammo40mmMiniDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefabTest"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon"	value="720mm"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
@@ -4130,7 +4130,7 @@
 			<property name="ParticleName" value="nozzlesmoke_m136"/>
 			<property class="Action1">
 				<property name="Class" value="Projectile"/>
-				<property name="Explosion.ParticleIndex" value="0"/>
+				<property name="Explosion.ParticleIndex" value="1"/>
 				<property name="Explosion.RadiusBlocks" value="1"/>
 				<property name="Explosion.BlockDamage" value="10"/>
 				<property name="Explosion.RadiusEntities" value="3"/>
@@ -4146,13 +4146,12 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="10"/>
 				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
 				<display_value name="ExRadius" value="5" />
-				<triggered_effect trigger="onProjectileImpact" action="AnimatorSetTrigger" target="self" property="Activate" value="true"/>
 			</effect_group>
 		</item>
 		<item name="mayicammoGrassBomb">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammoGrassBombDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefabTest"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon"	value="7grassbomb"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
@@ -4166,7 +4165,7 @@
 			<property class="Action1">
 				<property name="Class" value="Projectile"/>
 				<property name="Explosion.ParticleIndex" value="1"/>
-				<property name="Explosion.RadiusBlocks" value="45"/>
+				<property name="Explosion.RadiusBlocks" value="35"/>
 				<property name="Explosion.BlockDamage" value="5"/>
 				<property name="Explosion.RadiusEntities" value="1"/>
 				<property name="Explosion.EntityDamage" value="0"/>
@@ -4183,13 +4182,12 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="1"/>
 				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
 				<display_value name="ExRadius" value="5" />
-				<triggered_effect trigger="onProjectileImpact" action="AnimatorSetTrigger" target="self" property="Activate" value="true"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo40mmExplosive">
 			<property name="DisplayType" value="ammoLauncher"/>
 			<property name="DescriptionKey" value="mayicammo40mmExplosiveDesc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/40mm.unity3d?40mmPrefabTest"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms5.unity3d?40mmPrefab"/>
 			<property name="HoldType" value="45"/>
 			<property name="CustomIcon"	value="740mm"/>
 			<property name="HandMeshfile" value="Items/Misc/sackPrefab"/>
@@ -4217,7 +4215,6 @@
 				<passive_effect name="BlockDamage" operation="base_set" value="500"/>
 				<passive_effect name="ProjectileVelocity" operation="base_set" value="30"/>
 				<display_value name="ExRadius" value="5" />
-				<triggered_effect trigger="onProjectileImpact" action="AnimatorSetTrigger" target="self" property="Activate" value="true"/>
 			</effect_group>
 		</item>
 		<!--
