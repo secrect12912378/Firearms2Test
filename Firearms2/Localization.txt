@@ -1,4 +1,3 @@
-
 mayicgunLuger,items,Gun,New,Luger,,,,,
 mayicgunLugerDesc,items,Gun,New,Weak pistol that Uses 9x19mm Ammo,,,,,
 mayicgun38Snubnose,items,Gun,New,38 Snubnose,,,,,
@@ -54,7 +53,7 @@ mayicgunMossberg590A1Desc,items,Gun,New,Powerful SemiAutomatic Shotgun that uses
 mayicgunSpaz12,items,Gun,New,Spaz 12,,,,,
 mayicgunSpaz12Desc,items,Gun,New,Powerful Automatic Shotgun that uses all Shell Types,,,,,
 mayicgunAA12,items,Gun,New,AA12,,,,,
-mayicgunAA12Desc,items,Gun,New,Powerful Automatic Shotgun that uses all Shell Types,,,,,
+mayicgunAA12Desc,items,Gun,New,Fast rate of fire Fully Automatic Shotgun that uses all Shell Types,,,,,
 
 mayicgunFNFAL,items,Gun,New,FN FAL,,,,,
 mayicgunFNFALDesc,items,Gun,New,Old style SemiAutomatic Rifle that uses 22LR 7.62x51mm Ammo,,,,,
@@ -147,13 +146,13 @@ mayicmodAlienScopeDesc,item_modifiers,mod,New,What is this weird alien technolog
 mayicmodBlockBuster,items,Book,New,Block Buster,,,,,
 mayicmodBlockBusterDesc,items,Book,New,Very powerful Firearm attachment to punch through blocks like butter,,,,,
 mayicmodHandGrip,item_modifiers,mod,New,Hand Grip,,,,,
-mayicmodHandGripDesc,item_modifiers,mod,New,Control your Firearm better and reduce recoil when moving,,,,,
+mayicmodHandGripDesc,item_modifiers,mod,New,Control your Firearm better and reduce recoil when moving and aiming,,,,,
 mayicmodLaserSide,item_modifiers,mod,New,Laser Side,,,,,
 mayicmodLaserSideDesc,item_modifiers,mod,New,Tactical Laser Side to help you move faster and jump higher when stealthed,,,,,
 mayicmodBayonet,item_modifiers,mod,New,Bayonet Attachment,,,,,
-mayicmodBayonetDesc,item_modifiers,mod,New,Bayonet Attachment to chage your enemies without fear!,,,,,
+mayicmodBayonetDesc,item_modifiers,mod,New,Bayonet Attachment to chage your enemies without fear! 20% faster and use 10% less stamina while running,,,,,
 mayicmodExtendedSilencer,item_modifiers,mod,New,Compression Silencer,,,,,
-mayicmodExtendedSilencerDesc,item_modifiers,mod,New,Go unheard with this must-have tactical attachment,,,,,
+mayicmodExtendedSilencerDesc,item_modifiers,mod,New,Go unheard with this must-have tactical attachment. Shots will be completely silent. Impact of the shot will not,,,,,
 mayicmodQuickMag,item_modifiers,mod,New,Quick Magazine,,,,,
 mayicmodQuickMagDesc,item_modifiers,mod,New,Attach this dual magazine to your firearm for quicker reloading,,,,,
 mayicmodBananaClip,item_modifiers,mod,New,Banana Magazine,,,,,
@@ -312,8 +311,6 @@ mayicperkPartsRank5E,progression,Perk,New,Requires Firearms: 5,,,,,
 mayicperkPartsRank7E,progression,Perk,New,Requires Firearms: 8,,,,,
 mayicperkPartsRank10E,progression,Perk,New,Requires Firearms: 10 ,,,,,
 
-
-
 mayicchallengeDesc,items,Zombie Challenge Note,New,Kill Challenge for Firearms. Specific firearm class required for credit.,,,,,
 mayicchallengehandgun,items,Quest Note,New,2nd Amendment,,,,,
 mayicchallengesmg,items,Quest Note,New,Think you're a wise guy eh?,,,,,
@@ -379,7 +376,6 @@ mayicgunHandCannonSchematic,items,Book,New,Hand Cannon Schematic,,,,,
 mayicgunLaserRifleSchematic,items,Book,New,High Tech Rifle Schematic,,,,,
 mayicgunFlamethrowerSchematic,items,Book,New,Flamethrower Schematic,,,,,
 
-
 mayicammo9x19mmSchematic,items,Book,New,9x19mm Ammo Schematic,,,,,
 mayicammo38calSchematic,items,Book,New,38 Caliber Ammo Schematic,,,,,
 mayicammo40calSchematic,items,Book,New,40 Caliber Ammo Schematic,,,,,
@@ -428,9 +424,6 @@ mayicmodQuickMagSchematic,items,Book,New,Quick Magazine Schematics,,,,,
 mayicmodBananaClipSchematic,items,Book,New,Banana Magazine Schematics,,,,,
 mayicmodDrumMagSchematic,items,Book,New,Drum Magazine Schematics,,,,,
 
-
-
-
 mayicttScrapGun,UI,Tooltip,New,Scrap Gun that can be broken down to retrieve valuable materials,,,,,
 mayicttScrapAmmo,UI,Tooltip,New,Scrap Ammo that can be broken down to retrieve valuable materials,,,,,
 mayicttScrapSchematic,UI,Tooltip,New,Scrap Schematic that can be broken down to retrieve valuable materials,,,,,
@@ -468,13 +461,6 @@ mayictoolGunManual,items,Item,New,Gun Manual,,,,,
 mayictoolGunManualDesc,items,Item,New,Learn how to research Firearms using this tool at a Research Table,,,,,
 mayictoolModificationManual,items,Item,New,Modifications Manual,,,,,
 mayictoolModificationManualDesc,items,Item,New,Learn how to research Weapon Mods using this tool at a Research Table,,,,,
-
-
-
-
-
-
-
 
 mayicpartSmReceiver,items,Item,New,Small Receiver,,,,,
 mayicpartSmReceiverDesc,items,Item,New,Small Receiver for lower end Firearms: Core piece,,,,,
@@ -529,8 +515,6 @@ mayicpartAlienFrame,items,Item,New,High Tech Weapons Frame,,,,,
 mayicpartAlienFrameDesc,items,Item,New,High Tech Weapons Frame for special tier end Firearms: Recipe Specific piece,,,,,
 mayicpartFlamethrowerTank,items,Item,New,Flamethrower Tank,,,,,
 mayicpartFlamethrowerTankDesc,items,Item,New,Flamethrower Fuel Tank for special tier Firearms: Recipe Specific piece,,,,,
-
-
 
 mayicpartSmReceiverSchematic,items,Book,New,Small Receiver Schematic,,,,,
 mayicpartSmBarrelSchematic,items,Book,New,Small Barrel Schematic,,,,,

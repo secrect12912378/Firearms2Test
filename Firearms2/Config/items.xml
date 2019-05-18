@@ -1666,7 +1666,7 @@
 			<property name="DisplayType" value="rangedGun"/>
 			<property name="HoldType" value="48"/>
 			<property name="DescriptionKey" value="mayicgunAA12Desc"/>
-			<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12Prefab"/>
+			<property name="Meshfile" value="#@modfolder:Resources/Firearms3.unity3d?AA12Prefab"/>
 			<property name="CustomIcon" value="7aa12"/>
 			<property name="Material" value="MayicScrapGun"/>
 			<property name="Weight" value="7"/>
