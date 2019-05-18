@@ -11,6 +11,8 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 	<append xpath="/item_modifiers/item_modifier[@name='modGunSoundSuppressorSilencer']">
+	
+	
 		<!-- Pistols -->
 		<item_property_overrides name="mayicgun38Snubnose">
 			<property name="Sound_start" value="silence5"/>
@@ -109,16 +111,6 @@
 			<property name="BarrelScale" value="1,1,1"/>
 		</item_property_overrides>
 		<!-- Shotgun -->
-		<item_property_overrides name="mayicgunMossberg590A1">
-			<property name="Sound_start" value="silence1"/>
-			<property name="BarrelOffset" value="0,-0.035,0.267"/>
-			<property name="BarrelScale" value="1,1,1"/>
-		</item_property_overrides>
-		<item_property_overrides name="mayicgunSpaz12">
-			<property name="Sound_start" value="silence1"/>
-			<property name="BarrelOffset" value="0,0.063,.57"/>
-			<property name="BarrelScale" value="1,1,1"/>
-		</item_property_overrides>
 		<item_property_overrides name="mayicgunSawedOff">
 			<property name="Sound_start" value="silence1"/>
 			<property name="BarrelOffset" value="0,-0.0125,-0.0105"/>
@@ -132,6 +124,21 @@
 		<item_property_overrides name="mayicgunHuntingShotgun">
 			<property name="Sound_start" value="silence1"/>
 			<property name="BarrelOffset" value="0,-0.0363,0.26"/>
+			<property name="BarrelScale" value=".16,.16,.2"/>
+		</item_property_overrides>
+		<item_property_overrides name="mayicgunMossberg590A1">
+			<property name="Sound_start" value="silence1"/>
+			<property name="BarrelOffset" value="0,-0.035,0.267"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+		<item_property_overrides name="mayicgunSpaz12">
+			<property name="Sound_start" value="silence1"/>
+			<property name="BarrelOffset" value="0,0.063,.57"/>
+			<property name="BarrelScale" value="1,1,1"/>
+		</item_property_overrides>
+		<item_property_overrides name="mayicgunAA12">
+			<property name="Sound_start" value="silence1"/>
+			<property name="BarrelOffset" value=".001,0.051,0.113"/>
 			<property name="BarrelScale" value=".16,.16,.2"/>
 		</item_property_overrides>
 		<!-- Rifle -->
@@ -331,6 +338,11 @@
 		<item_property_overrides name="mayicgunMossberg590A1">
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="SideOffset" value="0,-.049,0.23"/>
+			<property name="SideScale" value="1,1,1"/>
+		</item_property_overrides>
+		<item_property_overrides name="mayicgunAA12">
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="SideOffset" value="0,0.08,0.04"/>
 			<property name="SideScale" value="1,1,1"/>
 		</item_property_overrides>
 		<item_property_overrides name="mayicgunSpaz12">
@@ -794,6 +806,13 @@
 			<property name="ScopeOffset" value="0,0.051,-0.06"/>
 			<property name="ScopeScale" value=".5,.5,.5"/>
 		</item_property_overrides>
+		<item_property_overrides name="mayicgunAA12">
+			<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0005,-0.0038,0.42"/>
+			<property name="ScopeOffset" value="0,0.235,-0.8"/>
+			<property name="ScopeScale" value=".5,.5,.5"/>
+		</item_property_overrides>
 		<item_property_overrides name="mayicgunSpaz12">
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="ScopeCameraOffset" value="0.0001,-0.013,0.35"/>
@@ -1062,6 +1081,13 @@
 			<property name="ScopeOffset" value="0,0.054,-0.09"/>
 			<property name="ScopeScale" value=".8,.9,1"/>
 		</item_property_overrides>
+		<item_property_overrides name="mayicgunAA12">
+			<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0005,-0.0038,0.42"/>
+			<property name="ScopeOffset" value="0,0.235,-0.8"/>
+			<property name="ScopeScale" value=".5,.5,.5"/>
+		</item_property_overrides>
 		<item_property_overrides name="mayicgunSpaz12">
 			<property name="ScopeCameraOffset" value="-0.0005,-0.005,0.39"/>
 			<property name="ScopeOffset" value="0,0.255,-0.7"/>
@@ -1327,6 +1353,13 @@
 			<property name="CrosshairOnAim" value="false"/>
 			<property name="ScopeCameraOffset" value="-0.0005,-0.0298,0.025"/>
 			<property name="ScopeOffset" value="0,0.051,-0.06"/>
+			<property name="ScopeScale" value=".5,.5,.5"/>
+		</item_property_overrides>
+		<item_property_overrides name="mayicgunAA12">
+			<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+			<property name="CrosshairOnAim" value="false"/>
+			<property name="ScopeCameraOffset" value="-0.0005,-0.0038,0.42"/>
+			<property name="ScopeOffset" value="0,0.235,-0.8"/>
 			<property name="ScopeScale" value=".5,.5,.5"/>
 		</item_property_overrides>
 		<item_property_overrides name="mayicgunSpaz12">
@@ -1769,6 +1802,13 @@
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
 			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- ACOG GREEN -->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,0.0058,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
+			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,0.005,0.42"/>
 				<property name="ScopeOffset" value="0,0.255,-0.7"/>
@@ -2039,6 +2079,13 @@
 				<property name="ScopeCameraOffset" value="0.0005,-0.0125,0.025"/>
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
+			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- ACOG GREEN -->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,0.0058,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,0.005,0.42"/>
@@ -2317,6 +2364,13 @@
 				<property name="ScopeCameraOffset" value="0.0005,-0.0125,0.025"/>
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
+			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- ACOG GREEN -->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,0.0058,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,0.005,0.42"/>
@@ -2601,6 +2655,13 @@
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
 			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- ACOG GREEN -->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,0.0058,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
+			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,0.005,0.42"/>
 				<property name="ScopeOffset" value="0,0.255,-0.7"/>
@@ -2871,6 +2932,13 @@
 				<property name="ScopeCameraOffset" value="0.0005,-0.0125,0.025"/>
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
+			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- ACOG GREEN -->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,0.0058,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,0.005,0.42"/>
@@ -3149,6 +3217,13 @@
 				<property name="ScopeCameraOffset" value="0.0005,-0.0125,0.025"/>
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
+			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- ACOG GREEN -->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,0.0058,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,0.005,0.42"/>
@@ -3432,6 +3507,13 @@
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
 			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- DOT SCOPE RED-->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,-0.0038,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
+			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,-0.005,0.39"/>
 				<property name="ScopeOffset" value="0,0.255,-0.7"/>
@@ -3702,6 +3784,13 @@
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
 			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- DOT SCOPE RED-->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,-0.0038,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
+			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,-0.005,0.39"/>
 				<property name="ScopeOffset" value="0,0.255,-0.7"/>
@@ -3971,6 +4060,13 @@
 				<property name="ScopeCameraOffset" value="0.0005,-0.0235,0.015"/>
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
+			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- DOT SCOPE RED-->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,-0.0038,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,-0.005,0.39"/>
@@ -4254,6 +4350,13 @@
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
 			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- HOLO SCOPE RED-->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,0.0058,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
+			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,0.005,0.42"/>
 				<property name="ScopeOffset" value="0,0.255,-0.7"/>
@@ -4527,6 +4630,13 @@
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
 			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- HOLO SCOPE RED-->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,0.0058,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
+			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,0.005,0.42"/>
 				<property name="ScopeOffset" value="0,0.255,-0.7"/>
@@ -4798,6 +4908,13 @@
 				<property name="ScopeCameraOffset" value="0.0005,-0.0125,0.025"/>
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
+			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- HOLO SCOPE RED-->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,0.0058,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="ScopeCameraOffset" value="-0.0005,0.005,0.42"/>
@@ -5081,6 +5198,13 @@
 				<property name="ScopeCameraOffset" value="0.0005,-0.0235,0.015"/>
 				<property name="ScopeOffset" value="0,0.054,-0.09"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
+			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12"> <!-- HOLO SCOPE RED-->
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,-0.0048,0.42"/>
+				<property name="ScopeOffset" value="0,0.255,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
 			</item_property_overrides>
 			<item_property_overrides name="mayicgunSpaz12">
 				<property name="CrosshairOnAim" value="false"/>
@@ -5393,6 +5517,13 @@
 				<property name="ScopeOffset" value="0,0.266,-0.7"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
 			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12">
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,-0.001,0.42"/>
+				<property name="ScopeOffset" value="0,0.268,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
+			</item_property_overrides>
 			<!-- Rifle -->
 			<item_property_overrides name="mayicgunBullpup">
 			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?BullpupPrefabSight"/>
@@ -5676,6 +5807,13 @@
 				<property name="ScopeOffset" value="0,0.266,-0.7"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
 			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12">
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,-0.001,0.42"/>
+				<property name="ScopeOffset" value="0,0.268,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
+			</item_property_overrides>
 			<!-- Rifle -->
 			<item_property_overrides name="mayicgunBullpup">
 			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?BullpupPrefabSight"/>
@@ -5958,9 +6096,15 @@
 				<property name="ScopeOffset" value="0,0.266,-0.7"/>
 				<property name="ScopeScale" value=".8,.9,1"/>
 			</item_property_overrides>
+			<item_property_overrides name="mayicgunAA12">
+				<property name="Meshfile" value="#@modfolder:Resources/AA12Test.unity3d?AA12PrefabSight"/>
+				<property name="CrosshairOnAim" value="false"/>
+				<property name="ScopeCameraOffset" value="-0.0005,-0.001,0.42"/>
+				<property name="ScopeOffset" value="0,0.268,-0.8"/>
+				<property name="ScopeScale" value=".5,.5,.5"/>
+			</item_property_overrides>
 			<!-- Rifle -->
 			<item_property_overrides name="mayicgunBullpup">
-			<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?BullpupPrefabSight"/>
 				<property name="Meshfile" value="#@modfolder:Resources/Firearms6.unity3d?BullpupPrefabSight"/>
 				<property name="CrosshairOnAim" value="false"/>
 				<property name="ScopeCameraOffset" value="0.0005,-0.0509,0.14"/>
@@ -6092,35 +6236,6 @@
 		</item_modifier>
 		
 		
-	<!--
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-						Possible? Test it, see how people like it. Basically dev gun for ground in a mod.
-
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-+++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-	<item_modifier name="mayicmodBlockBuster" installable_tags="firingMode" modifier_tags="trigger" type="attachment">
-		<property name="CustomIcon" value="7blockbuster"/>
-			<property name="DescriptionKey" value="mayicmodBlockBusterDesc"/>
-			<property name="Stacknumber" value="1"/>
-			<property name="Group" value="AllMods,ModSpecial"/>
-			<property name="EconomicValue" value="50000"/>
-			<property name="EconomicBundleSize" value="1"/>
-			<property name="SellableToTrader" value="true"/>
-
-			<effect_group tiered="false">
-				<passive_effect name="BlockDamage" operation="base_set" value="25"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="wood"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="metal"/>
-				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="stone"/>
-			</effect_group>
-		<property name="PickupJournalEntry" value="augmentGunsTip"/>
-	</item_modifier>
 	
 	<!--
 
@@ -6390,7 +6505,16 @@ XMLtags=customBlade Unity tag Parent:CustomAttachments Child:Blade
 	</item_modifier>
 	
 	
-	
+	<!--
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+						Magazines
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->	
 	
 	
 	<item_modifier name="mayicmodQuickMag" installable_tags="customMag" modifier_tags="magazine" type="attachment">
@@ -6436,6 +6560,35 @@ XMLtags=customBlade Unity tag Parent:CustomAttachments Child:Blade
 
 			<effect_group tiered="false">
 			<passive_effect name="MagazineSize" operation="perc_add" value="4"/>
+			</effect_group>
+		<property name="PickupJournalEntry" value="augmentGunsTip"/>
+	</item_modifier>
+	<!--
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+						Possible? Test it, see how people like it. Basically dev gun for ground in a mod.
+
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+-->
+	<item_modifier name="mayicmodBlockBuster" installable_tags="firingMode" modifier_tags="trigger" type="attachment">
+		<property name="CustomIcon" value="7blockbuster"/>
+			<property name="DescriptionKey" value="mayicmodBlockBusterDesc"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="Group" value="AllMods,ModSpecial"/>
+			<property name="EconomicValue" value="50000"/>
+			<property name="EconomicBundleSize" value="1"/>
+			<property name="SellableToTrader" value="true"/>
+
+			<effect_group tiered="false">
+				<passive_effect name="BlockDamage" operation="base_set" value="25"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="earth"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="wood"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="metal"/>
+				<passive_effect name="DamageModifier" operation="perc_add" value="3" tags="stone"/>
 			</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
