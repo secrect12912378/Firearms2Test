@@ -41,6 +41,6 @@
 			<window name="windowCustomAssemble" />
 			<window name="windowNonPagingHeader" />
 		</window_group>-->
-		</append>
-<set xpath="/xui/ruleset/window_group[@name='assemble']/window[@name='windowAssemble']/@name">windowCustomAssemble</set>
+		</append><!--
+<set xpath="/xui/ruleset/window_group[@name='assemble']/window[@name='windowAssemble']/@name">windowCustomAssemble</set>-->
 	</potato>	

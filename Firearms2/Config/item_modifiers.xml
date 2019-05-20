@@ -6472,7 +6472,7 @@ XMLtags=customLaser Unity tag Parent:CustomAttachments Child:Laser
 			<passive_effect name="JumpStrength" operation="perc_add" value=".2" tags="crouching"/>
 			<passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.5"/>
 			<passive_effect name="SpreadMultiplierHip" operation="perc_add" value="-.25"/>
-				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Laser.unity3d?LaserPrefab" parent_transform="Laser"/>
+				<triggered_effect trigger="onSelfHoldingItemCreated" action="AttachPrefabToHeldItem" prefab="#@modfolder:Resources/Mods.unity3d?LaserPrefab" parent_transform="Laser"/>
 			</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>
@@ -6527,7 +6527,7 @@ XMLtags=customBlade Unity tag Parent:CustomAttachments Child:Blade
 			<property name="SellableToTrader" value="true"/>
 
 			<effect_group tiered="false">
-				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1.2"/>
+				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1.8"/>
 			</effect_group>
 		<property name="PickupJournalEntry" value="augmentGunsTip"/>
 	</item_modifier>

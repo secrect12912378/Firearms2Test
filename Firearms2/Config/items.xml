@@ -61,8 +61,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -118,8 +118,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="6"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -179,8 +179,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -240,8 +240,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -281,7 +281,7 @@
 			<property name="EconomicBundleSize" value="1"/>
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
-				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo9mm,mayicammo9mmSteel,mayicammo40cal,mayicammo40calSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="m9fire"/>
 				<property name="Sound_repeat" value=""/>
 				<property name="Sound_end" value=""/>
@@ -304,8 +304,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="15"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -345,7 +345,7 @@
 			<property name="EconomicBundleSize" value="1"/>
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
-				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo9mm,mayicammo9mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo9mm,mayicammo9mmSteel,mayicammo40cal,mayicammo40calSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="m9fire"/>
 				<property name="Sound_repeat" value=""/>
 				<property name="Sound_end" value=""/>
@@ -365,8 +365,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="12"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -406,7 +406,7 @@
 			<property name="EconomicBundleSize" value="1"/>
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
-				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo9mm,mayicammo9mmSteel,mayicammo40cal,mayicammo40calSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="b92fire"/>
 				<property name="Sound_repeat" value=""/>
 				<property name="Sound_end" value=""/>
@@ -426,8 +426,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="17"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -490,8 +490,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="15"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -531,7 +531,7 @@
 			<property name="EconomicBundleSize" value="1"/>
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
-				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo45acp,mayicammo45acpSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammo45acp,mayicammo45acpSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="glockfire"/>
 				<property name="Sound_repeat" value=""/>
 				<property name="Sound_end" value=""/>
@@ -551,8 +551,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="18"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.2"/>
@@ -612,8 +612,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="11"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.4"/>
@@ -674,8 +674,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="7"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -733,8 +733,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="6"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -791,7 +791,7 @@
 			<property name="EconomicBundleSize" value="1"/>
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
-				<property name="Magazine_items" value="mayicammo10mm,mayicammo10mmSteel,mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo5.7x28mm,mayicammo5.7x28mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo9x19mm,mayicammo9x19mmSteel,mayicammo10mm,mayicammo10mmSteel,mayicammo5.7x28mm,mayicammo5.7x28mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="klobfire"/>
 				<property name="Sound_repeat" value=""/>
 				<property name="Sound_end" value=""/>
@@ -812,8 +812,8 @@
 				<passive_effect name="MagazineSize" operation="base_set" value="20"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".7"/>
 				<!-- 2s -->
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.9"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.9"/>
@@ -870,8 +870,8 @@
 				<passive_effect name="DamageFalloffRange" operation="base_set" value="18"/>
 				<passive_effect name="RoundsPerMinute" operation="base_set" value="1200"/>
 				<passive_effect name="BurstRoundCount" operation="base_set" value="10000"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.9"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.9"/>
@@ -935,8 +935,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="50"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.7"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.7"/>
@@ -996,8 +996,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="32"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.7"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.7"/>
@@ -1055,8 +1055,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="3"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="35"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -1112,8 +1112,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="33"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -1154,7 +1154,7 @@
 			<property class="Action0">
 				<property name="Class" value="Ranged"/>
 				<property name="Delay" value="0.150"/>
-				<property name="Magazine_items" value="mayicammo45acp,mayicammo45acpSteel,mayicammo40cal,mayicammo40calSteel,mayicammo9mm,mayicammo9mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
+				<property name="Magazine_items" value="mayicammo40cal,mayicammo40calSteel,mayicammo45acp,mayicammo45acpSteel,mayicammo9mm,mayicammo9mmSteel,mayicammoCorrosive,mayicammoExplosive,mayicammoIncendiary"/>
 				<property name="Sound_start" value="tommyfire"/>
 				<property name="Sound_empty" value="weapon_empty"/>
 				<property name="Sound_reload" value="ak47_reload"/>
@@ -1173,8 +1173,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="100"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".65"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="3.1"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="3.1"/>
@@ -1236,8 +1236,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="50"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.7"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.7"/>
@@ -1318,8 +1318,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="2"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="6.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-2.75,2.75"/>
@@ -1385,8 +1385,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="6"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
@@ -1450,8 +1450,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="16"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="3.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.25,1.25"/>
@@ -1515,8 +1515,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="6"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
@@ -1582,8 +1582,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="12"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
@@ -1647,8 +1647,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="24"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.75,1.25"/>
@@ -1712,8 +1712,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="32"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".4"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="KickDegreesVertical" operation="base_set" value="1.51"/>
 				<passive_effect name="KickDegreesHorizontal" operation="base_set" value="-1.15,1.15"/>
@@ -1783,8 +1783,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="20"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1799,8 +1799,8 @@
 				<passive_effect name="WeaponHandling" operation="base_set" value="0.7"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="700,1400" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" property="shooting" value="true"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AnimatorSetBool" target="self" property="shooting" value="false"/>
@@ -1847,8 +1847,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="3"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="45"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".9"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -1903,8 +1903,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -1959,8 +1959,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2016,8 +2016,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="20"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2075,8 +2075,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2137,8 +2137,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="35"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2200,8 +2200,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="30"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2258,8 +2258,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="35"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2316,8 +2316,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1000"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="35"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2379,8 +2379,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="5"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".81"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
@@ -2438,8 +2438,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="8"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".6"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="5"/>
@@ -2510,8 +2510,8 @@
 				<passive_effect name="RunSpeed" operation="base_set" value=".95"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="200"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".4"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2570,8 +2570,8 @@
 				<passive_effect name="RunSpeed" operation="base_set" value=".95"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="100"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".2"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.8"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.8"/>
@@ -2630,8 +2630,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="20"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -2693,8 +2693,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="10"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.2"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.2"/>
@@ -2756,8 +2756,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="5"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".62"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
@@ -2819,8 +2819,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="5"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".62"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6"/>
@@ -2883,8 +2883,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="5"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".8,2" tier="1,6"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+				<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="6,1" tier="1,6"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="6,1" tier="1,6"/>
@@ -3026,8 +3026,8 @@
 				<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="3000,9000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" property="shoot" value="true"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AnimatorSetBool" target="self" property="shoot" value="false"/>
@@ -3091,8 +3091,8 @@
 				<passive_effect name="WeaponHandling" operation="base_set" value="1.5"/>
 				<passive_effect name="DegradationMax" operation="base_set" value="3000,9000" tier="1,6"/>
 				<passive_effect name="DegradationPerUse" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<triggered_effect trigger="onSelfPrimaryActionStart" action="AnimatorSetBool" target="self" range="100" property="shooting" value="true"/>
 				<triggered_effect trigger="onSelfPrimaryActionEnd" action="AnimatorSetBool" target="self" range="100" property="shooting" value="false"/>
@@ -3142,8 +3142,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="1"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="4"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="4"/>
@@ -3263,8 +3263,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="1"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value="1"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.1"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.1"/>
@@ -3322,8 +3322,8 @@
 				<passive_effect name="BurstRoundCount" operation="base_set" value="1"/>
 				<passive_effect name="MagazineSize" operation="base_set" value="5"/>
 				<passive_effect name="ReloadSpeedMultiplier" operation="base_set" value=".5"/>
-				<passive_effect name="ModSlots" operation="base_set" value="0,1" tier="1,3"/>
-				<passive_effect name="ModSlots" operation="base_set" value="4,12" tier="4,6"/>
+				<passive_effect name="ModSlots" operation="base_set" value="0,5" tier="1,6"/>
+		<passive_effect name="ModPowerBonus" operation="perc_add" value="0.1" tags="EntityDamage"/>
 				<passive_effect name="ModPowerBonus" operation="base_add" value="200" tags="EconomicValue"/>
 				<passive_effect name="SpreadDegreesVertical" operation="base_set" value="1.5"/>
 				<passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="1.5"/>
@@ -3358,10 +3358,10 @@
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 		<!--                          SMG                        -->
-		<item name="mayicammo10mm">
+		<item name="mayicammoMaster">
 			<property name="DisplayType" value="ammoBullet"/>
-			<property name="DescriptionKey" value="mayicammo10mmDesc"/>
-			<property name="CustomIcon" value="7lowcalsmg"/>
+			<property name="DescriptionKey" value=""/>
+			<property name="CustomIcon" value=""/>
 			<property name="HoldType" value="45"/>
 			<property name="Meshfile" value="Items/Misc/sackPrefab"/>
 			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
@@ -3369,6 +3369,18 @@
 			<property name="Weight" value="2"/>
 			<property name="Stacknumber" value="5000"/>
 			<property name="CraftingSkillGroup" value="craftSkillGuns"/>
+			<property name="EconomicValue" value="3"/>
+			<property name="EconomicBundleSize" value="4"/>
+			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
+			<effect_group name="Base Effects" tiered="false">
+			</effect_group>
+		</item>
+		<item name="mayicammo10mm">
+			<property name="Extends" value="mayicammoMaster"/>
+			<property name="DescriptionKey" value="mayicammo10mmDesc"/>
+			<property name="CustomIcon" value="7lowcalsmg"/>
+			<property name="Material" value="MayicScrapAmmo"/>
+			<property name="Weight" value="2"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="EconomicBundleSize" value="4"/>
 			<property name="Group" value="Ammo/Weapons,AllRounds,LowRounds"/>
@@ -3382,7 +3394,7 @@
 		</item>
 		<item name="mayicammo10mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo10mmSteelDesc"/>
 			<property name="CustomIcon" value="7lowcalsmgs"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3401,7 +3413,7 @@
 		</item>
 		<!--                          Pistols                        -->
 		<item name="mayicammo9x19mm">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7tinycalsmg"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3419,7 +3431,7 @@
 		</item>
 		<item name="mayicammo9x19mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="3"/>
 			<property name="CustomIcon" value="7tinycalsmgs"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3437,7 +3449,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo38cal">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7tinycalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3455,7 +3467,7 @@
 		</item>
 		<item name="mayicammo38calSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo38calSteelDesc"/>
 			<property name="CustomIcon" value="7tinycalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3473,7 +3485,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo9mm">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7lowcalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3491,7 +3503,7 @@
 		</item>
 		<item name="mayicammo9mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo9mmSteelDesc"/>
 			<property name="CustomIcon" value="7lowcalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3509,7 +3521,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo40cal">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7lowcalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3527,7 +3539,7 @@
 		</item>
 		<item name="mayicammo40calSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo40calSteelDesc"/>
 			<property name="CustomIcon" value="7lowcalpistols"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3546,7 +3558,7 @@
 		</item>
 		<!-- mayicgun1911 -->
 		<item name="mayicammo45acp">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7medcalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3564,7 +3576,7 @@
 		</item>
 		<item name="mayicammo45acpSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="4"/>
 			<property name="EconomicBundleSize" value="2"/>
 			<property name="DescriptionKey" value="mayicammo45acpSteelDesc"/>
@@ -3583,7 +3595,7 @@
 		</item>
 		<!-- mayicgunDesertEagle -->
 		<item name="mayicammo50ae">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7medcalpistol"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3601,7 +3613,7 @@
 		</item>
 		<item name="mayicammo50aeSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
@@ -3619,7 +3631,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo357magnum">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7357"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3637,7 +3649,7 @@
 		</item>
 		<item name="mayicammo357magnumSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="6"/>
 			<property name="EconomicBundleSize" value="1"/>
 			<property name="DescriptionKey" value="7357s"/>
@@ -3655,7 +3667,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo5.7x28mm">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7tinycalsmg"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3673,7 +3685,7 @@
 		</item>
 		<item name="mayicammo5.7x28mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7tinycalsmgs"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3753,7 +3765,7 @@
 		<!--                          Rifles                        -->
 		<!-- 22LR=Trash ammo, waiting for something better to replace it with. Not really coded with anything besides the FNFAL. Pretty much hit ever major caliber right now. Waiting for a semi-exotic rifle with an odd round. Or a basic hunting rifle type. -->
 		<item name="mayicammo22lr">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo22lrDesc"/>
 			<property name="CustomIcon" value="7smallcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3771,7 +3783,7 @@
 		</item>
 		<item name="mayicammo22lrSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo22lrSteelDesc"/>
 			<property name="CustomIcon" value="7smallcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3789,7 +3801,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo223cal">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo223calDesc"/>
 			<property name="CustomIcon" value="7smallcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3807,7 +3819,7 @@
 		</item>
 		<item name="mayicammo223calSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo223calSteelDesc"/>
 			<property name="CustomIcon" value="7smallcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3825,7 +3837,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo5.56x45mm">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo5.56x45mmDesc"/>
 			<property name="CustomIcon" value="7medcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3843,7 +3855,7 @@
 		</item>
 		<item name="mayicammo5.56x45mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7medcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3861,7 +3873,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo7.62x39mm">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo7.62x39mmDesc"/>
 			<property name="CustomIcon" value="7medcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3881,7 +3893,7 @@
 		</item>
 		<item name="mayicammo7.62x39mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo7.62x39mmSteelDesc"/>
 			<property name="CustomIcon" value="7medcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3901,7 +3913,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo7.62x51mm">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo7.62x51mmDesc"/>
 			<property name="CustomIcon" value="7highcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3921,7 +3933,7 @@
 		</item>
 		<item name="mayicammo7.62x51mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo7.62x51mmSteelDesc"/>
 			<property name="CustomIcon" value="7highcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3941,7 +3953,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo30-06">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7topcalrifle"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3960,7 +3972,7 @@
 		</item>
 		<item name="mayicammo30-06Steel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7topcalrifles"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="2"/>
@@ -3979,7 +3991,7 @@
 		</item>
 		<!--                          Large Weapons                        -->
 		<item name="mayicammo338cal">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo338calDesc"/>
 			<property name="CustomIcon" value="7highcallarge"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -3999,7 +4011,7 @@
 		</item>
 		<item name="mayicammo338calSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo338calSteelDesc"/>
 			<property name="CustomIcon" value="7highcallarges"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4019,7 +4031,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammo50cal">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo50calDesc"/>
 			<property name="CustomIcon" value="7topcallarge"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4039,7 +4051,7 @@
 		</item>
 		<item name="mayicammo50calSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo50aeSteelDesc"/>
 			<property name="CustomIcon" value="7topcallarges"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4060,7 +4072,7 @@
 		</item>
 		<!--                          Specials                        -->
 		<item name="mayicammo5mm">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammo5mmDesc"/>
 			<property name="CustomIcon" value="75mm"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4079,7 +4091,7 @@
 		</item>
 		<item name="mayicammo5mmSteel">
 			<property name="DisplayType" value="ammoBulletSteel"/>
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="EconomicValue" value="2"/>
 			<property name="EconomicBundleSize" value="5"/>
 			<property name="DescriptionKey" value="mayicammo5mmSteelDesc"/>
@@ -4097,7 +4109,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammoGoldenbullet">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammoGoldenbulletDesc"/>
 			<property name="CustomIcon" value="7golden"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4289,7 +4301,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammoIncendiary">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammoIncendiaryDesc"/>
 			<property name="CustomIcon" value="7incen"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4312,7 +4324,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammoExplosive">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="buffExplosiveRoundDesc"/>
 			<property name="CustomIcon" value="7explosiveround"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4332,7 +4344,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammoCorrosive">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammoCorrosiveDesc"/>
 			<property name="CustomIcon" value="7corrosive"/>
 			<property name="Material" value="MayicScrapAmmo"/>
@@ -4353,7 +4365,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammoFlameFuel">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="DescriptionKey" value="mayicammoFlameFuelDesc"/>
 			<property name="CustomIcon" value="7flamefuel"/>
 			<property name="EconomicValue" value="22"/>
@@ -4371,7 +4383,7 @@
 			</effect_group>
 		</item>
 		<item name="mayicammoLaserRound">
-			<property name="Extends" value="mayicammo10mm"/>
+			<property name="Extends" value="mayicammoMaster"/>
 			<property name="CustomIcon" value="7laserround"/>
 			<property name="Material" value="MayicScrapAmmo"/>
 			<property name="Weight" value="1"/>
@@ -5153,7 +5165,7 @@ Mmetal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 		<!-- Pistol -->
-		<item name="mayicgunLugerSchematic">
+		<item name="mayicgunBerettaNanoSchematic">
 			<property name="DescriptionKey" value="mayicschematicMasterDesc"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="HoldType" value="21"/>
@@ -5162,7 +5174,7 @@ Mmetal
 			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="Material" value="MayicScrapSchematic"/>
-			<property name="CustomIcon" value="7lugers"/>
+			<property name="CustomIcon" value="7nanos"/>
 			<property name="Weight" value="4"/>
 			<property name="FuelValue" value="5"/>
 			<property name="Stacknumber" value="1"/>
@@ -5174,60 +5186,15 @@ Mmetal
 				<property name="Use_time" value="..."/>
 				<property name="ActionExpBonusMultiplier" value="0"/>
 				<property name="Sound_start" value="recipe_unlocked"/>
-				<requirement name="CVarCompare" cvar="mayicgunLuger" operation="Equals" value="0"/> 
-			</property>-->
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicgunLuger" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunLuger" operation="subtract" value="1"/>
-			</effect_group>
-		</item>
-		<item name="mayicgun38SnubnoseSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="300"/>
-			<property name="CustomIcon" value="738sc"/>
-			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
-			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicgun38Snubnose" operation="Equals" value="0"/> 
-			</property>-->
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicgun38Snubnose" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgun38Snubnose" operation="subtract" value="1"/>
-			</effect_group>
-		</item>
-		<item name="mayicgunBerettaNanoSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="600"/>
-			<property name="CustomIcon" value="7nanos"/>
-			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
-			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicgunBerettaNano" operation="Equals" value="0"/> 
+				<requirement name="CVarCompare" cvar="mayicgunBerettaNano" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
 				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicgunBerettaNano" operation="add" value="1"/>
 				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunBerettaNano" operation="subtract" value="1"/>
 			</effect_group>
 		</item>
-		<item name="mayicgunMakarovSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="600"/>
-			<property name="CustomIcon" value="7makarovs"/>
-			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
-			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicgunMakarov" operation="Equals" value="0"/> 
-			</property>-->
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicgunMakarov" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunMakarov" operation="subtract" value="1"/>
-			</effect_group>
-		</item>
 		<item name="mayicgunM9Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -5242,7 +5209,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunBeretta92Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -5257,7 +5224,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunP226Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -5272,7 +5239,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunGlock40Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -5287,7 +5254,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunUSPSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -5302,7 +5269,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgun1911Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -5317,7 +5284,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunDesertEagleSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="3300"/>
@@ -5333,7 +5300,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunColtPythonSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="3300"/>
@@ -5349,23 +5316,8 @@ Mmetal
 			</effect_group>
 		</item>
 		<!-- SMG -->
-		<item name="mayicgunKlobSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="900"/>
-			<property name="CustomIcon" value="7klobs"/>
-			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
-			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicgunKlob" operation="Equals" value="0"/> 
-			</property>-->
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicgunKlob" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunKlob" operation="subtract" value="1"/>
-			</effect_group>
-		</item>
 		<item name="mayicgunMac10Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="900"/>
@@ -5380,7 +5332,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunMP5Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1200"/>
@@ -5395,7 +5347,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunMK1Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1200"/>
@@ -5410,7 +5362,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunVectorSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1200"/>
@@ -5426,7 +5378,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunMP40Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2400"/>
@@ -5441,7 +5393,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunM1A1ThompsonSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2400"/>
@@ -5457,7 +5409,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunRCP90Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2400"/>
@@ -5473,23 +5425,8 @@ Mmetal
 			</effect_group>
 		</item>
 		<!-- Shotguns -->
-		<item name="mayicgunDoubleBarrelShotgunSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="600"/>
-			<property name="CustomIcon" value="7dbss"/>
-			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
-			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicgunDoubleBarrelShotgun" operation="Equals" value="0"/> 
-			</property>-->
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicgunDoubleBarrelShotgun" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunDoubleBarrelShotgun" operation="subtract" value="1"/>
-			</effect_group>
-		</item>
 		<item name="mayicgunSawedOffSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="600"/>
@@ -5504,7 +5441,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunFalloutShotgunSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -5519,7 +5456,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunHuntingShotgunSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -5534,7 +5471,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunMossberg590A1Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2700"/>
@@ -5550,7 +5487,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunSpaz12Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="4500"/>
@@ -5565,9 +5502,25 @@ Mmetal
 				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunSpaz12" operation="subtract" value="1"/>
 			</effect_group>
 		</item>
+		<item name="mayicgunAA12Schematic">
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="4500"/>
+			<property name="CustomIcon" value="7aa12s"/>
+			<property name="Weight" value="6"/>
+			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicgunAA12" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicgunAA12" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunAA12" operation="subtract" value="1"/>
+			</effect_group>
+		</item>
 		<!-- Rifle -->
 		<item name="mayicgunFNFALSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1200"/>
@@ -5582,7 +5535,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunRustAKSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="1200"/>
@@ -5597,7 +5550,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunACWSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="3600"/>
@@ -5612,7 +5565,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunBullpupSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="2400"/>
@@ -5627,7 +5580,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunAR15Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="3300"/>
@@ -5642,7 +5595,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunAK47Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="3300"/>
@@ -5657,7 +5610,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunM16Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="3600"/>
@@ -5672,7 +5625,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunARX160Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="3600"/>
@@ -5687,7 +5640,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunM4A1Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="6600"/>
@@ -5703,7 +5656,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunSCARSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="6600"/>
@@ -5719,7 +5672,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunM1Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="7500"/>
@@ -5735,7 +5688,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunMosinNagantSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="7500"/>
@@ -5752,7 +5705,7 @@ Mmetal
 		</item>
 		<!-- Large -->
 		<item name="mayicgunM249SawSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="12600"/>
@@ -5768,7 +5721,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunM240Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="12600"/>
@@ -5784,7 +5737,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunSR25Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="7500"/>
@@ -5800,7 +5753,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunMradSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="7500"/>
@@ -5816,7 +5769,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunJNG90Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="9000"/>
@@ -5832,7 +5785,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunM98Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="9000"/>
@@ -5848,7 +5801,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunM82Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="15000"/>
@@ -5865,7 +5818,7 @@ Mmetal
 		</item>
 		<!-- Special -->
 		<item name="mayicgunGoldenGunSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="30000"/>
@@ -5881,7 +5834,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunChaingunSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="27000"/>
@@ -5896,24 +5849,8 @@ Mmetal
 				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunChaingun" operation="subtract" value="1"/>
 			</effect_group>
 		</item>
-		<item name="mayicgunArghSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="100"/>
-			<property name="CustomIcon" value="7arghs"/>
-			<property name="Weight" value="1"/>
-			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
-			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicgunArgh" operation="Equals" value="0"/> 
-			</property>-->
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicgunArgh" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunArgh" operation="subtract" value="1"/>
-			</effect_group>
-		</item>
 		<item name="mayicgunM79GL40Schematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="15000"/>
@@ -5928,24 +5865,8 @@ Mmetal
 				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunM79GL40" operation="subtract" value="1"/>
 			</effect_group>
 		</item>
-		<item name="mayicgunHandCannonSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="1500"/>
-			<property name="CustomIcon" value="7handcannons"/>
-			<property name="Weight" value="1"/>
-			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
-			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicgunHandCannon" operation="Equals" value="0"/> 
-			</property>-->
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicgunHandCannon" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicgunHandCannon" operation="subtract" value="1"/>
-			</effect_group>
-		</item>
 		<item name="mayicgunLaserRifleSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="35000"/>
@@ -5961,7 +5882,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicgunFlamethrowerSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
 			<property name="EconomicValue" value="35000"/>
@@ -5986,42 +5907,66 @@ Mmetal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 +++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
--->
-		<item name="mayicammo10mmSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
-			<property name="Weight" value="1"/>
+-->		<item name="mayicammoMasterSchematic">
 			<property name="DescriptionKey" value="mayicschematicAmmoMasterDesc"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="HoldType" value="21"/>
+			<property name="Meshfile" value="Items/Misc/bookPrefab"/>
+			<property name="DropMeshfile" value="Items/Misc/sack_droppedPrefab"/>
+			<property name="Group" value="Books,CustomResearch,CustomRGun"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="Material" value="MayicScrapSchematic"/>
+			<property name="CustomIcon" value=""/>
+			<property name="Weight" value="1"/>
+			<property name="FuelValue" value="5"/>
+			<property name="Stacknumber" value="1"/>
+			<property name="EconomicValue" value="300"/>
+			<!--<property class="Action0">
+				<property name="Class" value="Eat"/>
+				<property name="Consume" value="true"/>
+				<property name="Delay" value="1.0"/>
+				<property name="Use_time" value="..."/>
+				<property name="ActionExpBonusMultiplier" value="0"/>
+				<property name="Sound_start" value="recipe_unlocked"/>
+				<requirement name="CVarCompare" cvar="mayicammo10mm,mayicammo10mmSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+			</effect_group>
+		</item>
+		<item name="mayicammo10mmSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7lowcalsmgsch"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="800"/>
+			<property name="EconomicValue" value="1300"/>
 			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
 			<!--<property class="Action0">
 				 <requirement name="CVarCompare" cvar="mayicammo10mm,mayicammo10mmSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo10mm,mayicammo10mmSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo10mm,mayicammo10mmSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo10mm" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo10mm" operation="subtract" value="2"/>
 			</effect_group>
 		</item>
-		<item name="mayicammo9x19mmSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+		<item name="mayicammo10mmSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7tinycalsmgsch"/>
+			<property name="CustomIcon" value="7lowcalsmgschs"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="500"/>
+			<property name="EconomicValue" value="1300"/>
 			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
 			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicammo9x19mm,mayicammo9x19mmSteel" operation="Equals" value="0"/> 
+				 <requirement name="CVarCompare" cvar="mayicammo10mm,mayicammo10mmSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo9x19mm,mayicammo9x19mmSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo9x19mm,mayicammo9x19mmSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo10mmSteel" operation="add" value="4"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo10mmSteel" operation="subtract" value="4"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo9mmSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7lowcalpistolsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6032,44 +5977,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo9mm,mayicammo9mmSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo9mm,mayicammo9mmSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo9mm,mayicammo9mmSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo9mm" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo9mm" operation="subtract" value="3"/>
 			</effect_group>
 		</item>
-		<item name="mayicammo5.7x28mmSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+		<item name="mayicammo9mmSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7tinycalsmgsch"/>
+			<property name="CustomIcon" value="7lowcalpistolschs"/>
 			<property name="CreativeMode" value="Player"/>
 			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="900"/>
+			<property name="EconomicValue" value="1300"/>
 			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
 			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicammo5.7x28mm,mayicammo5.7x28mmSteel" operation="Equals" value="0"/> 
+				 <requirement name="CVarCompare" cvar="mayicammo9mm,mayicammo9mmSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo5.7x28mm,mayicammo5.7x28mmSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo5.7x28mm,mayicammo5.7x28mmSteel" operation="subtract" value="1"/>
-			</effect_group>
-		</item>
-		<item name="mayicammo38calSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
-			<property name="Weight" value="1"/>
-			<property name="CustomIcon" value="7tinycalpistolsch"/>
-			<property name="CreativeMode" value="Player"/>
-			<property name="SellableToTrader" value="false"/>
-			<property name="EconomicValue" value="400"/>
-			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
-			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicammo38cal,mayicammo38calSteel" operation="Equals" value="0"/> 
-			</property>-->
-			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo38cal,mayicammo38calSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo38cal,mayicammo38calSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo9mmSteel" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo9mmSteel" operation="subtract" value="3"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo40calSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7lowcalpistolsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6080,12 +6009,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo40cal,mayicammo40calSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo40cal,mayicammo40calSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo40cal,mayicammo40calSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo40cal" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo40cal" operation="subtract" value="3"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo40calSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7lowcalpistolschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="1500"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo40cal,mayicammo40calSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo40calSteel" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo40calSteel" operation="subtract" value="3"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo45acpSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7medcalpistolsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6096,12 +6041,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo45acp,mayicammo45acpSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo45acp,mayicammo45acpSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo45acp,mayicammo45acpSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo45acp" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo45acp" operation="subtract" value="3"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo45acpSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7medcalpistolschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="1500"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo45acp,mayicammo45acpSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo45acpSteel" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo45acpSteel" operation="subtract" value="3"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo50aeSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7medcalpistolsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6112,12 +6073,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo50ae,mayicammo50aeSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo50ae,mayicammo50aeSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo50ae,mayicammo50aeSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo50ae" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo50ae" operation="subtract" value="2"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo50aeSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7medcalpistolschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="5000"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo50ae,mayicammo50aeSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo50aeSteel" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo50aeSteel" operation="subtract" value="2"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo357magnumSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7357sch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6128,13 +6105,61 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo357magnum,mayicammo357magnumSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo357magnum,mayicammo357magnumSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo357magnum,mayicammo357magnumSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo357magnum" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo357magnum" operation="subtract" value="2"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo357magnumSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7357schs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo357magnum,mayicammo357magnumSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo357magnumSteel" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo357magnumSteel" operation="subtract" value="2"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo5.7x28mmSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7tinycalsmgsch"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="900"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo5.7x28mm,mayicammo5.7x28mmSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo5.7x28mm" operation="add" value="4"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo5.7x28mm" operation="subtract" value="4"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo5.7x28mmSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7tinycalsmgschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="900"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo5.7x28mm,mayicammo5.7x28mmSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo5.7x28mmSteel" operation="add" value="4"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo5.7x28mmSteel" operation="subtract" value="4"/>
 			</effect_group>
 		</item>
 		<!-- Shotguns -->
 		<item name="mayicammo20gaugeSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="720gsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6150,7 +6175,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammoBirdShotSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7birdshotsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6166,7 +6191,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammoDragonsbreathSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7dragonsbreathsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6182,7 +6207,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammoElectricshellSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7electricshotsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6199,7 +6224,7 @@ Mmetal
 		</item>
 		<!-- Rifles -->
 		<item name="mayicammo7.62x39mmSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7medcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6210,12 +6235,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo7.62x39mm,mayicammo7.62x39mmSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo7.62x39mm,mayicammo7.62x39mmSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo7.62x39mm,mayicammo7.62x39mmSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo7.62x39mm" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo7.62x39mm" operation="subtract" value="3"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo7.62x39mmSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7medcalrifleschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="800"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo7.62x39mm,mayicammo7.62x39mmSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo7.62x39mmSteel" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo7.62x39mmSteel" operation="subtract" value="3"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo223calSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7smallcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6226,12 +6267,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo223cal,mayicammo223calSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo223cal,mayicammo223calSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo223cal,mayicammo223calSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo223cal" operation="add" value="4"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo223cal" operation="subtract" value="4"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo223calSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7smallcalrifleschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo223cal,mayicammo223calSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo223calSteel" operation="add" value="4"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo223calSteel" operation="subtract" value="4"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo22lrSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7smallcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6242,12 +6299,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo22lr,mayicammo22lrSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo22lr,mayicammo22lrSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo22lr,mayicammo22lrSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo22lr" operation="add" value="4"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo22lr" operation="subtract" value="4"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo22lrSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7smallcalrifleschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="500"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo22lr,mayicammo22lrSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo22lrSteel" operation="add" value="4"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo22lrSteel" operation="subtract" value="4"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo5.56x45mmSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7medcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6258,12 +6331,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo5.56x45mm,mayicammo5.56x45mmSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo5.56x45mm,mayicammo5.56x45mmSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo5.56x45mm,mayicammo5.56x45mmSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo5.56x45mm" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo5.56x45mm" operation="subtract" value="3"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo5.56x45mmSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7medcalrifleschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="1200"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo5.56x45mm,mayicammo5.56x45mmSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo5.56x45mmSteel" operation="add" value="3"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo5.56x45mmSteel" operation="subtract" value="3"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo30-06Schematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7topcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6274,12 +6363,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo30-06,mayicammo30-06Steel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo30-06,mayicammo30-06Steel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo30-06,mayicammo30-06Steel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo30-06" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo30-06" operation="subtract" value="2"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo30-06SteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7topcalrifleschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="1800"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo30-06,mayicammo30-06Steel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo30-06Steel" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo30-06Steel" operation="subtract" value="2"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo7.62x51mmSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7highcalriflesch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6290,12 +6395,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo7.62x51mm,mayicammo7.62x51mmSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo7.62x51mm,mayicammo7.62x51mmSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo7.62x51mm,mayicammo7.62x51mmSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo7.62x51mm" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo7.62x51mm" operation="subtract" value="2"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo7.62x51mmSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7highcalrifleschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="1800"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo7.62x51mm,mayicammo7.62x51mmSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo7.62x51mmSteel" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo7.62x51mmSteel" operation="subtract" value="2"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo338calSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7highcallargesch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6306,12 +6427,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo338cal,mayicammo338calSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo338cal,mayicammo338calSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo338cal,mayicammo338calSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo338cal" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo338cal" operation="subtract" value="2"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo338calSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7highcallargeschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="2200"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo338cal,mayicammo338calSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo338calSteel" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo338calSteel" operation="subtract" value="2"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo50calSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7topcallargesch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6322,12 +6459,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo50cal,mayicammo50calSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo50cal,mayicammo50calSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo50cal,mayicammo50calSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo50cal" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo50cal" operation="subtract" value="2"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo50calSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="7topcallargeschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="2500"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo50cal,mayicammo50calSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo50calSteel" operation="add" value="2"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo50calSteel" operation="subtract" value="2"/>
 			</effect_group>
 		</item>
 		<item name="mayicammo5mmSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="75mmsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6338,12 +6491,28 @@ Mmetal
 				 <requirement name="CVarCompare" cvar="mayicammo5mm,mayicammo5mmSteel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo5mm,mayicammo5mmSteel" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo5mm,mayicammo5mmSteel" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo5mm" operation="add" value="8"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo5mm" operation="subtract" value="8"/>
+			</effect_group>
+		</item>
+		<item name="mayicammo5mmSteelSchematic">
+			<property name="Extends" value="mayicammoMasterSchematic"/>
+			<property name="Weight" value="1"/>
+			<property name="CustomIcon" value="75mmschs"/>
+			<property name="CreativeMode" value="Player"/>
+			<property name="SellableToTrader" value="false"/>
+			<property name="EconomicValue" value="1100"/>
+			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
+			<!--<property class="Action0">
+				 <requirement name="CVarCompare" cvar="mayicammo5mm,mayicammo5mmSteel" operation="Equals" value="0"/> 
+			</property>-->
+			<effect_group tiered="false">
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammo5mmSteel" operation="add" value="8"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammo5mmSteel" operation="subtract" value="8"/>
 			</effect_group>
 		</item>
 		<item name="mayicammoGoldenbulletSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7goldensch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6359,7 +6528,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammo40mmMiniSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="720mmsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6375,7 +6544,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammo40mmExplosiveSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="740mmsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6391,7 +6560,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammoCorrosiveSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7corrosivesch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6407,7 +6576,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammoExplosiveSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7explosiveroundsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6423,7 +6592,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammoIncendiarySchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7incensch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6439,7 +6608,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammoLaserRoundSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7laserroundsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6455,7 +6624,7 @@ Mmetal
 			</effect_group>
 		</item>
 		<item name="mayicammoFlameFuelSchematic">
-			<property name="Extends" value="mayicammo10mmSchematic"/>
+			<property name="Extends" value="mayicammoMasterSchematic"/>
 			<property name="Weight" value="1"/>
 			<property name="CustomIcon" value="7flamefuelsch"/>
 			<property name="CreativeMode" value="Player"/>
@@ -6463,11 +6632,11 @@ Mmetal
 			<property name="EconomicValue" value="12000"/>
 			<property name="Group" value="Books,CustomResearch,CustomRAmmo"/>
 			<!--<property class="Action0">
-				 <requirement name="CVarCompare" cvar="mayicammoLaserRound" operation="Equals" value="0"/> 
+				 <requirement name="CVarCompare" cvar="mayicammoFlameFuel" operation="Equals" value="0"/> 
 			</property>-->
 			<effect_group tiered="false">
-				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammoLaserRound" operation="add" value="1"/>
-				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammoLaserRound" operation="subtract" value="1"/>
+				<triggered_effect trigger="onSelfEquipStart" action="ModifyCVar" cvar="mayicammoFlameFuel" operation="add" value="1"/>
+				<triggered_effect trigger="onSelfEquipStop" action="ModifyCVar" cvar="mayicammoFlameFuel" operation="subtract" value="1"/>
 			</effect_group>
 		</item>
 		<!--
@@ -6482,7 +6651,7 @@ Mmetal
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 -->
 		<item name="mayicmodACOGSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="DescriptionKey" value="mayicmodACOGSchematicDesc"/>
 			<property name="CustomIcon" value="7acogsch"/>
 			<property name="Weight" value="4"/>
@@ -6752,7 +6921,7 @@ Mmetal
 -->
 		
 		<item name="mayicpartSmReceiverSchematic">
-			<property name="Extends" value="mayicgunLugerSchematic"/>
+			<property name="Extends" value="mayicgunBerettaNanoSchematic"/>
 			<property name="Weight" value="2"/>
 			<property name="DescriptionKey" value="mayicpartSmReceiverSchematicDesc"/>
 			<property name="CreativeMode" value="Player"/>
